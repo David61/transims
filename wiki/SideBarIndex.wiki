@@ -1,9 +1,9 @@
 #summary Navigation side bar for all wiki pages.
 
-[Roadmap TRANSIMS Road Map]
+[RoadMap TRANSIMS Road Map]
 
-[Documentation DocumentationIndex]
+[DocumentationIndex Documentation]
 
-[How-To Guides HowToIndex]
+[HowToIndex How-To Guides ]
 
-[Case Studies CaseStudies]
+[CaseStudies Case Studies ]
