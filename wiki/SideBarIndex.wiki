@@ -1,7 +1,6 @@
 #summary Navigation side bar for all wiki pages.
 
 *[RoadMap TRANSIMS Road Map]
-  * RoadMap#Running
 
 *[DocumentationIndex Documentation]
 
