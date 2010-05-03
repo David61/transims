@@ -1,0 +1,7 @@
+= Introduction =
+
+The thing is, sometimes you need dummy text files, for some reason.  You can find one here.
+
+= Details =
+
+[http://tsims-test3.googlecode.com/files/testtextfile.txt Here is the dummy text file]
