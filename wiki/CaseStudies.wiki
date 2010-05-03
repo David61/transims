@@ -8,7 +8,7 @@ In 2007-2009, the Volpe Center worked with the Greater Buffalo Niagara Regional 
 
 Scoping Study Presentation: [http://www.thetbwg.org/meetings/200610/ScottSmith.ppt]
 
-Project Report:  [http://transims.googlecode.com/svn/casestudies/TRANSIMSBuffaloFinalReportNov2009.htm  Final Report (html)]         [http://tsims-test3.googlecode.com/files/TRANSIMSBuffaloFinalReportNov2009.pdf Final Report (pdf)]
+Project Report:  [http://transims.googlecode.com/svn/casestudies/TRANSIMSBuffaloFinalReportNov2009.htm  Final Report (html)]         [http://transims.googlecode.com/svn/casestudies/TRANSIMSBuffaloFinalReportNov2009.pdf Final Report (pdf)]
 
 == A second project ==
 
