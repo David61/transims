@@ -1,7 +1,7 @@
 #summary Navigation side bar for all wiki pages.
 
 *[RoadMap TRANSIMS Road Map]
-  *[RoadMap#Setting_up_the_model]
+  *[RoadMap#Running_the_model]
 
 *[DocumentationIndex Documentation]
 
