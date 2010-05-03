@@ -1,9 +1,12 @@
 #summary Navigation side bar for all wiki pages.
 
-[RoadMap TRANSIMS Road Map]
+*[RoadMap TRANSIMS Road Map]
+  *[RoadMap#Setting_up_the_model Setup]
+  *[RoadMap#Running_up_the_model Running]
+  *[RoadMap#Reviewing_the_simulation_results Results]
 
-[DocumentationIndex Documentation]
+*[DocumentationIndex Documentation]
 
-[HowToIndex How-To Guides ]
+*[HowToIndex How-To Guides ]
 
-[CaseStudies Case Studies ]
+*[CaseStudies Case Studies ]
