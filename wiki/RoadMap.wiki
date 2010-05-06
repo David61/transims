@@ -1,15 +1,12 @@
 #summary TRANSIMS Documentation Outline
 Below is a categorical arrangement of Wiki pages.  [http://code.google.com/p/transims/w/list Click here to view a list of all pages.]
+
+http://code.google.com/p/transims/source/browse/wiki/TransimsDiagram.gif
+
 =Setting up the model=  
-==Creating the Network==   
-Programs: !TransimsNet ([http://transims.googlecode.com/svn/documentation/quickreference/TransimsNet%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/TransimsNet%20v4.0.pdf Full]), !IntControl ([http://transims.googlecode.com/svn/documentation/quickreference/IntControl%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/IntControl%20v2.2.pdf Full]), Progression ([http://transims.googlecode.com/svn/documentation/quickreference/Progression%20QR.pdf QR]), GISNet ([http://transims.googlecode.com/svn/documentation/quickreference/GISNet%20QR.pdf QR]), Network Editor
 
-Other references:  [http://transims.googlecode.com/svn/documentation/howto/Installation%20and%20Testing%20How-To.doc Installation and Testing How-To (New)], [http://transims.googlecode.com/svn/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing (New)], [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Tables], [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To (New)], [http://transims.googlecode.com/svn/documentation/howto/Network%20Edit%20How-To.doc Network Edit How-To], Version 3 Network Description, Network Editor Guide (Location?)
-==Creating the Trip Tables and Activity Locations== 
-Programs: !ConvertTrips ([http://transims.googlecode.com/svn/documentation/quickreference/ConvertTrips%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%20v4.0.pdf Full]), !SmoothData, !SmoothPlans, !LocationData ([http://transims.googlecode.com/svn/documentation/quickreference/LocationData%20QR.pdf QR])
-
-Other references:  [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To], [http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table-How To], Version 3 Network Description
 =Running the model= 
+
 ==Using Python with TRANSIMS== 
 Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
 References:  GBNRTC Script (Location?)
