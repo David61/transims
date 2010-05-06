@@ -1,0 +1,24 @@
+#summary Running the TRANSIMS Model
+
+==Using Python with TRANSIMS== 
+Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
+References:  GBNRTC Script (Location?)
+==Router Stabilization Phase==
+Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full] ), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), !PlanSum ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSum%20QR.pdf QR]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR])
+References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
+==Microsimulator Stabilization Phase==
+Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR]), !ProblemSelect ([http://transims.googlecode.com/svn/documentation/quickreference/ProblemSelect%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR]), !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR])
+
+References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], 
+==User Equilibrium Phase==
+Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanCompare ([http://transims.googlecode.com/svn/documentation/quickreference/PlanCompare%20QR.pdf QR])
+
+References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf Microsimulator Output Files]
+==Subarea Simulation==
+Programs:  !SubareaNet ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaNet%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR])
+
+References:  TRANSIMS-Buffalo Report (Volpe)
+==Other Programs and References== 
+Programs:  !ProblemSum, !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR]), !AdjustPlans ([http://transims.googlecode.com/svn/documentation/quickreference/AdjustPlans%20QR.pdf QR]), Relocate ([http://transims.googlecode.com/svn/documentation/quickreference/Relocate%20QR.pdf QR]), !ZoneData ([http://transims.googlecode.com/svn/documentation/quickreference/ZoneData%20QR.pdf QR])
+
+References:  TRANSIMS-Buffalo Report (Volpe), TRANSIMS-Burlington Report (RSG)
