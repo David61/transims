@@ -3,7 +3,7 @@ TRANSIMS implementations follow three major phases:
 
 [http://transims.googlecode.com/svn/wiki/RoadMapSetUp.wiki  Setting up the model]
 
-[http://code.google.com/p/transims/wiki/RoadMapSetUp.wiki  Setting up the model]
+[http://code.google.com/p/transims/wiki/RoadMapSetUp  Setting up the model]
 
 [http://transims.googlecode.com/svn/wiki/RoadMapRun.wiki  Running the model]
 
