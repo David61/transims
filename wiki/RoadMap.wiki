@@ -1,47 +1,13 @@
-#summary TRANSIMS Documentation Outline
-Below is a categorical arrangement of Wiki pages.  [http://code.google.com/p/transims/w/list Click here to view a list of all pages.]
+#summary TRANSIMS Road Map
+TRANSIMS implementations follow three major phases:  
 
-http://code.google.com/p/transims/source/browse/wiki/TransimsDiagram.gif
+[http://transims.googlecode.com/svn/wiki/RoadMapSetUp.wiki  *Setting up the model*]
 
-=Setting up the model=  
+[http://transims.googlecode.com/svn/wiki/RoadMapRun.wiki  *Running the model*]
 
-=Running the model= 
+[http://transims.googlecode.com/svn/wiki/RoadMapReview.wiki  *Reviewing the results*]
+ 
+  http://transims.googlecode.com/svn/wiki/TransimsDiagram.gif
 
-==Using Python with TRANSIMS== 
-Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
-References:  GBNRTC Script (Location?)
-==Router Stabilization Phase==
-Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full] ), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), !PlanSum ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSum%20QR.pdf QR]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR])
-References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
-==Microsimulator Stabilization Phase==
-Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR]), !ProblemSelect ([http://transims.googlecode.com/svn/documentation/quickreference/ProblemSelect%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR]), !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR])
 
-References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], 
-==User Equilibrium Phase==
-Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanCompare ([http://transims.googlecode.com/svn/documentation/quickreference/PlanCompare%20QR.pdf QR])
-
-References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf Microsimulator Output Files]
-==Subarea Simulation==
-Programs:  !SubareaNet ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaNet%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR])
-
-References:  TRANSIMS-Buffalo Report (Volpe)
-==Other Programs and References== 
-Programs:  !ProblemSum, !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR]), !AdjustPlans ([http://transims.googlecode.com/svn/documentation/quickreference/AdjustPlans%20QR.pdf QR]), Relocate ([http://transims.googlecode.com/svn/documentation/quickreference/Relocate%20QR.pdf QR]), !ZoneData ([http://transims.googlecode.com/svn/documentation/quickreference/ZoneData%20QR.pdf QR])
-
-References:  TRANSIMS-Buffalo Report (Volpe), TRANSIMS-Burlington Report (RSG)
-=Reviewing the simulation results= 
-==Summarizing the Outputs== 
-Programs:  Validate ([http://transims.googlecode.com/svn/documentation/quickreference/Validate%20QR.pdf QR])
-
-Processes:  Post-Processing, Calibration Database 
-
-Other references:  [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf Microsimulator Output Files]
-==Visualization== 
-Arc Programs:  !ArcNet ([http://transims.googlecode.com/svn/documentation/quickreference/ArcNet%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/ArcNet%20v4.0.pdf Full]), !ArcPlan ([http://transims.googlecode.com/files/ArcPlan%20QR.pdf Arc Plan Quick Reference], [http://transims.googlecode.com/svn/documentation/usermanuals/ArcPlan%20v4.0.pdf Full]), !ArcSnapshot ([http://transims.googlecode.com/svn/documentation/quickreference/ArcSnapshot%20QR.pdf QR]), !ArcDelay ([http://transims.googlecode.com/svn/documentation/quickreference/ArcDelay%20QR.pdf QR])
-
-Other Programs:  Nexta®, SnapVideoUI®
-                        References:  Nexta® Complete Online User Guide, Nexta® Step-by-Step Tutorial, SnapVideoUI® User Guide
-==Other Programs and References==
-Programs:  !LinkSum ([http://transims.googlecode.com/svn/documentation/quickreference/LinkSum%20QR.pdf QR]), !EventSum ([http://transims.googlecode.com/svn/documentation/quickreference/EventSum%20QR.pdf QR]), !TripSum ([http://transims.googlecode.com/svn/documentation/quickreference/TripSum%20QR.pdf QR])
-
-References:  TRANSIMS-Buffalo Report (Volpe), TRANSIMS-Burlington Report (RSG)
+[http://code.google.com/p/transims/w/list Click here to view a list of all wiki pages.]
