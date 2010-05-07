@@ -12,5 +12,7 @@ The diagram illustrates the process. You may have a "Track 1" or "Track 2" imple
 
   http://transims.googlecode.com/svn/wiki/TransimsDiagram.gif
 
+Another useful resource is the [http://simtravel.wikispaces.asu.edu/TRANSIMS+For+Dummies "TRANSIMS for Dummies"] wiki, being developed in Arizona.  
+
 
 [http://code.google.com/p/transims/w/list Click here to view a list of all wiki pages.]
