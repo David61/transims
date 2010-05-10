@@ -24,7 +24,7 @@ Inputs to the Router include the network and a set of trips.  After the first it
 
 A useful reference is [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
 
-=Microsimulator Stabilization Phase=
+=Microsimulator Stabilization=
 
 After router stabilization is complete, the microsimulator is introduced. Since many TRANSIMS implementations include a subarea microsimulation, a subarea is assumed here. Recall that in the router stabilization process, the router produces trip plans, and then PlanSum is used to calculate the link_delays for those plans. In microsimulator stabilization, the subarea simulation takes the place of the PlanSum program in the subarea, with its microsimulator-generated results being used to calculate the new link delays. 
 
@@ -51,22 +51,27 @@ Inputs to the Router include the network, a set of trips, the list of households
 
 10. Add the households identifed in step 9 to the list of households. 
 
-A useful reference is the[http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To]. 
+A useful reference is the [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc  Microsimulator How-To]. 
 
+=User Equilibrium=
 
-==User Equilibrium Phase==
-Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanCompare ([http://transims.googlecode.com/svn/documentation/quickreference/PlanCompare%20QR.pdf QR])
+The objective of user equilibrium is to develop a set of plans where no individual traveler can improve his or her travel time significantly by changing routes.  Typically, between 5 and 20+ iterations are run. The user equilibrium phase can be time consuming, because the Router reroutes all of the trips at each iteration. 
 
-References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], 
-==Subarea Simulation==
-Programs:  !SubareaNet ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaNet%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR])
+1. Run the [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Router (Full)]  [http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf (QR)]
+Inputs to the Router include the network, a set of trips, and congested travel times. The outputs include problem trips (those trips that could not be routed) and plans (the node-by-node or link-by-link travel plans) of each trip.    
 
-References:  TRANSIMS-Buffalo Report (Volpe)
-==Other Programs and References== 
-Programs:  !ProblemSum, !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR]), !AdjustPlans ([http://transims.googlecode.com/svn/documentation/quickreference/AdjustPlans%20QR.pdf QR]), Relocate ([http://transims.googlecode.com/svn/documentation/quickreference/Relocate%20QR.pdf QR]), !ZoneData ([http://transims.googlecode.com/svn/documentation/quickreference/ZoneData%20QR.pdf QR])
+2. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanCompare%20QR.pdf PlanCompare (QR)] to compare the travel times and paths of the plans from this run with those from the previous run. 
 
-References:  TRANSIMS-Buffalo Report (Volpe), TRANSIMS-Burlington Report (RSG)
+3. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  
 
-==Using Python with TRANSIMS== 
-Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
-References:  GBNRTC Script (Location?)
+3. Run [http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf SubareaPlans (QR)] to extract the plans that include links or nodes in the subarea.  
+
+4. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to sort the plans by departure time (needed for the microsimulator) 
+
+5. Run the [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf outputs], including link delays for those links in the subarea. 
+
+6. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays (for those links NOT in the subarea). 
+
+7. Run [http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf LinkDelay (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
+
+[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
