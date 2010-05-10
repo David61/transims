@@ -60,6 +60,8 @@ Other references that may be useful for trip table conversion include
 
 [http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table How-To]
 
+SmoothData
+
 =Activity Generation=
 
 UNDER CONSTRUCTION
