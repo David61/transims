@@ -1,14 +1,31 @@
 #summary Running the TRANSIMS Model
 
-UNDER CONSTRUCTION
+[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
 
-==Using Python with TRANSIMS== 
-Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
-References:  GBNRTC Script (Location?)
-==Router Stabilization Phase==
-Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full] ), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), !PlanSum ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSum%20QR.pdf QR]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR])
-References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
-==Microsimulator Stabilization Phase==
+Once the network and trip tables have been assembled, the next step is to run the TRANSIMS model. Three phases are involved in this effort:
+  * Router stabilization-the router is run on subsets of the trips to produce reasonable Volume-to-Capacity (V/C) ratios across the network. This process provides the initial estimates of traffic flow for the microsimulator, but is not the final step. 
+  * Microsimulator stabilization-both the router and the microsimulator are run in order to produce a stable set of trips.
+  * User equilibrium-both the router and the microsimulator are run to adjust trips to reach a true user equilibrium where no user can improve travel times by changing routes. 
+
+=Router Stabilization=
+
+In this phase, the router is run repeatedly to produce a "reasonable" V/C ratios across the network.  A stabilization process may involve anywhere from 5 to 60 iterations.  Each iteration typically includes the following steps:
+
+1. Run the [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Router (Full)]  [http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf (QR)]
+Inputs to the Router include the network and a set of trips.  After the first iteration, inputs also include the list of households to be rerouted and congested travel times. The outputs include problem trips (those trips that could not be routed) and plans (the node-by-node or link-by-link travel plans) of each trip.  Note that for networks containing a large number of trips, the Router run may be partitioned.  
+
+2. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  Note that for networks containing a large number of trips, the PlanPrep run may be partitioned.
+
+3. Optionally, run [http://transims.googlecode.com/svn/documentation/quickreference/PlanTrips%20QR.pdf  PlanTrips (QR)], to adjust the start times of destination-constrained trips.
+
+4. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays based on the current set of plans. Since the link delays depend on ALL of the plans, this program cannot be partitioned.  
+
+5. Run [http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf PlanSelect (QR)] to choose those plans to be rerouted in the next iteration.  
+
+A useful reference is [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
+
+=Microsimulator Stabilization Phase=
+
 Programs: Router ([http://transims.googlecode.com/svn/documentation/quickreference/Router%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Router%20v4.0.pdf Full]), !PlanPrep ([http://transims.googlecode.com/svn/documentation/quickreference/PlanPrep%20QR.pdf QR]), Microsimulator ([http://transims.googlecode.com/svn/documentation/quickreference/Microsimulator%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20v4.0.pdf Full]), !PlanSelect ([http://transims.googlecode.com/svn/documentation/quickreference/PlanSelect%20QR.pdf QR]), !ProblemSelect ([http://transims.googlecode.com/svn/documentation/quickreference/ProblemSelect%20QR.pdf QR]), !SubareaPlans ([http://transims.googlecode.com/svn/documentation/quickreference/SubareaPlans%20QR.pdf QR]), !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR])
 
 References:  [http://transims.googlecode.com/svn/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To], [http://transims.googlecode.com/svn/documentation/howto/Microsimulator%20How-To.doc Microsimulator How-To], 
@@ -24,3 +41,7 @@ References:  TRANSIMS-Buffalo Report (Volpe)
 Programs:  !ProblemSum, !LinkDelay ([http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf QR]), !AdjustPlans ([http://transims.googlecode.com/svn/documentation/quickreference/AdjustPlans%20QR.pdf QR]), Relocate ([http://transims.googlecode.com/svn/documentation/quickreference/Relocate%20QR.pdf QR]), !ZoneData ([http://transims.googlecode.com/svn/documentation/quickreference/ZoneData%20QR.pdf QR])
 
 References:  TRANSIMS-Buffalo Report (Volpe), TRANSIMS-Burlington Report (RSG)
+
+==Using Python with TRANSIMS== 
+Programs:  Python, !RunSetup ([http://transims.googlecode.com/svn/documentation/quickreference/RunSetup%20QR.pdf QR])
+References:  GBNRTC Script (Location?)
