@@ -1,11 +1,10 @@
-#summary Setting Up the Model
+#summary Setting Up the Model   [http://code.google.com/p/transims/w/RoadMap Back to Road Map]
 
-=Setting up the model=  
-==Network Preparation==
+=Network Preparation=
 
 Network preparation typically involves taking a network from an existing model, and converting it to a TRANSIMS network.  The two major sub-steps are highway network preparation and transit network preparation.  
 
-===Highway Network Preparation:  Typical Process===
+==Highway Network Preparation:  Typical Process==
 
 1. Starting data typically includes a list of nodes (with UTM coordinates) and a list of links (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS shape file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
 
@@ -17,7 +16,7 @@ Network preparation typically involves taking a network from an existing model, 
   * If a signalized divided arterial is represented as two one-way links, converting those links into two-way links and removing the extra nodes. This avoids the issue with two automatically-generated traffic signals extremely close together.  
   * Fixing erroneous shape information
 
-3. [http://transims.googlecode.com/svn/documentation/quickreference/TransimsNet%20QR.pdf TransimsNet (QR)] [http://transims.googlecode.com/svn/documentation/usermanuals/TransimsNet%20v4.0.pdf (Full)]  is then used to perform the initial network conversion.  Required inputs include Node and Link files.  Optional inputs include Zone, Turn Prohibition and Shape files. 
+3. [http://transims.googlecode.com/svn/documentation/quickreference/TransimsNet%20QR.pdf TransimsNet (QR)] [http://transims.googlecode.com/svn/documentation/usermanuals/TransimsNet%20v4.0.pdf (Full)]  is then used to perform the initial network conversion.  Required inputs include Node and Link files.  Optional inputs include Zone, Turn Prohibition and Shape files. [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Data Tables] contains a list of all of the network tables, along with their fields. 
 
 4. At this stage a number of other corrections are typically performed:
   *  Fixing any issues in the lane_connectivity file (particularly with multiple turn lanes)
@@ -25,23 +24,23 @@ Network preparation typically involves taking a network from an existing model, 
   *  Modifying activity locations    
 
 5. [http://transims.googlecode.com/svn/documentation/quickreference/IntControl%20QR.pdf IntControl (QR)]  [http://transims.googlecode.com/svn/documentation/usermanuals/IntControl%20v2.2.pdf (Full)]
-is then used to generate the files for the signalized intersections.  Inputs include Node, Link, Lane_Connectivity, Pocket_Lane, Actvity_Location, Sign_Warrant, and Signal_Warrant files. 
+is then used to generate the files for the signalized intersections.  Inputs include Node, Link, Lane_Connectivity, Pocket_Lane, Actvity_Location, Sign_Warrant, and Signal_Warrant files. [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Data Tables] contains a list of all of the network tables, along with their fields. 
 
 6.  Finally, [http://transims.googlecode.com/svn/documentation/quickreference/ArcNet%20QR.pdf ArcNet (QR)] [http://transims.googlecode.com/svn/documentation/usermanuals/ArcNet%20v4.0.pdf (Full)] to generate shape files from the newly created TRANSIMS network.  These shape files are then loaded into a GIS, and the newly created network is examined for errors. 
 
 Other references that may be useful for highway network preparation include
 [http://transims.googlecode.com/svn/documentation/quickreference/Progression%20QR.pdf Progression QR], [http://transims.googlecode.com/svn/documentation/howto/Installation%20and%20Testing%20How-To.doc Installation and Testing How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing], [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Tables], [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To (New)], [http://transims.googlecode.com/svn/documentation/howto/Network%20Edit%20How-To.doc Network Edit How-To]
 
-===Transit Network Preparation:  Typical Process===
+==Transit Network Preparation:  Typical Process==
 
 UNDER CONSTRUCTION
 
-===Network Editing===
+==Network Editing==
 
 Network editing is part of the two previously-described processes. 
 
-==Creating the Trip Tables and Activity Locations== 
+=Creating the Trip Tables and Activity Locations= 
 
 Programs: !ConvertTrips ([http://transims.googlecode.com/svn/documentation/quickreference/ConvertTrips%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%20v4.0.pdf Full]), !SmoothData, !SmoothPlans, !LocationData ([http://transims.googlecode.com/svn/documentation/quickreference/LocationData%20QR.pdf QR])
 
-Other references:  [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To], [http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table-How To], Version 3 Network Description
+[http://code.google.com/p/transims/w/RoadMap Back to Road Map]
