@@ -40,7 +40,7 @@ UNDER CONSTRUCTION
 
 Network editing is part of the two previously-described processes. 
 
-=Creating the Trip Tables and Activity Locations= 
+=Trip Table Conversion= 
 
 A trip-table based TRANSIMS implementation uses trip table, trip time and activity location files.  The trip table files list the trips by origin zone and destination zone.  The trip time files define how those trips are distributed by time-of-day.  The activity location file associates each zone with one or more activity locations. Steps for preparing TRANSIMS trips from trip tables include the following.  
 
@@ -57,6 +57,10 @@ A trip-table based TRANSIMS implementation uses trip table, trip time and activi
 
 Other references that may be useful for trip table conversion include
 
-...
+[http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table How-To]
+
+=Activity Generation=
+
+UNDER CONSTRUCTION
 
 [http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
