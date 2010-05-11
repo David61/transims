@@ -38,6 +38,8 @@ Other references that may be useful for highway network preparation include
 
 UNDER CONSTRUCTION
 
+How Tos:  [http://transims.googlecode.com/svn/documentation/howto/Transit%20Network%20How-To.doc Transit Network How-To]
+
 ==Network Editing==
 
 Network editing is part of the two previously-described processes. 
@@ -67,5 +69,9 @@ SmoothData
 =Activity Generation=
 
 UNDER CONSTRUCTION
+
+How-Tos:  [http://transims.googlecode.com/svn/documentation/howto/Activity%20Generator%20How-To.doc Activity Generator How-To], [http://transims.googlecode.com/svn/documentation/howto/Population%20Synthesizer%20How-To.doc Population Synthesizer How-To]
+
+User Manuals:  [http://transims.googlecode.com/svn/documentation/usermanuals/ActGen%20v4.0.pdf ActGen],  [http://transims.googlecode.com/svn/documentation/usermanuals/PopSyn%20v4.0.pdf PopSyn]
 
 [http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
