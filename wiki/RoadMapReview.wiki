@@ -1,18 +1,22 @@
 #summary Reviewing the TRANSIMS results
 
-UNDER CONSTRUCTION !!!!
+[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
+
+Like most microsimulation models, TRANSIMS produces an enormous amount of output data.  Here are some tips for looking at it. They are split into two parts:  first is summarization (for example, comparing modeled flows on a link to observed counts), second is visualization.  
 
 ==Summarizing the Outputs== 
 
-Programs:  Validate ([http://transims.googlecode.com/svn/documentation/quickreference/Validate%20QR.pdf QR])
+The document [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf Microsimulator Output Files] provides a list of what is available from the TRANSIMS microsimulator.  
 
-Processes:  Post-Processing, Calibration Database 
+The [http://transims.googlecode.com/svn/documentation/quickreference/Validate%20QR.pdf Validate QR] program provides a means of comparing TRANSIMS flows to a file of observed traffic counts.  
 
-Other references:  [http://transims.googlecode.com/svn/documentation/usermanuals/Microsimulator%20Output%20Files.pdf Microsimulator Output Files]
+Other useful programs include [http://transims.googlecode.com/svn/documentation/quickreference/LinkSum%20QR.pdf LinkSum (QR)],  [http://transims.googlecode.com/svn/documentation/quickreference/EventSum%20QR.pdf EventSum (QR)], and  [http://transims.googlecode.com/svn/documentation/quickreference/TripSum%20QR.pdf TripSum (QR)].
+
 ==Visualization== 
 Arc Programs:  !ArcNet ([http://transims.googlecode.com/svn/documentation/quickreference/ArcNet%20QR.pdf QR], [http://transims.googlecode.com/svn/documentation/usermanuals/ArcNet%20v4.0.pdf Full]), !ArcPlan ([http://transims.googlecode.com/files/ArcPlan%20QR.pdf Arc Plan Quick Reference], [http://transims.googlecode.com/svn/documentation/usermanuals/ArcPlan%20v4.0.pdf Full]), !ArcSnapshot ([http://transims.googlecode.com/svn/documentation/quickreference/ArcSnapshot%20QR.pdf QR]), !ArcDelay ([http://transims.googlecode.com/svn/documentation/quickreference/ArcDelay%20QR.pdf QR])
 
 Other Programs:  Nexta, SnapVideoUI, Metropolis
                         References:  Nexta Complete Online User Guide, Nexta Step-by-Step Tutorial, SnapVideoUI User Guide
-==Other Programs and References==
-Programs:  !LinkSum ([http://transims.googlecode.com/svn/documentation/quickreference/LinkSum%20QR.pdf QR]), !EventSum ([http://transims.googlecode.com/svn/documentation/quickreference/EventSum%20QR.pdf QR]), !TripSum ([http://transims.googlecode.com/svn/documentation/quickreference/TripSum%20QR.pdf QR])
+
+
+[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
