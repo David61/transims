@@ -2,12 +2,16 @@
 
 = TRANSIMS Case Studies =
 
+== TRANSIMS Application and Development Workshop, April 2010 ==
+
+On April 8-9, 2010, the Transportation Research and Analysis Computing Center ([http://www.anl.gov/TRACC TRACC]) at Argonne National Laboratory hosted a TRANSIMS workshop, with some 20 presentations on various aspects of TRANSIMS.  Here is a [http://www.anl.gov/TRACC/Training/TMS/04_8-9_10/index.html link] to the abstracts and presentations. 
+
 == TRANSIMS Buffalo ==
 
 In 2007-2009, the Volpe Center worked with the Greater Buffalo Niagara Regional Transportation Council to develop an integrated planning / simulation model of the Buffalo / Niagara Falls area.  This was a track 1, trip-table based implementation of TRANSIMS that used the Router and subarea Microsimulation. The planning model encompasses the U.S. side of the entire region, while the subarea microsimulation component includes much more detailed modeling of the I-190 corridor, including the Lewiston-Queenston Bridge.  Areas of investigation included border crossing delay, toll delay and the impact of increased truck traffic.  
 
 Scoping Study Presentation: [http://www.thetbwg.org/meetings/200610/ScottSmith.ppt]
-
+Project Presentation to the Transportation Border Working Group:  [http://www.thetbwg.org/meetings/201004/D35TRANSIMS.ppt]
 Project Report:  [http://transims.googlecode.com/svn/casestudies/TRANSIMSBuffaloFinalReportNov2009.htm  Final Report (html)]         [http://transims.googlecode.com/svn/casestudies/TRANSIMSBuffaloFinalReportNov2009.pdf Final Report (pdf)]
 
 == A second project ==
@@ -21,3 +25,5 @@ Project Report:
 ...
 
 == And so on ==
+
+[http://code.google.com/p/transims/ Back to Front Page]
