@@ -1,0 +1,14 @@
+#summary TRANSIMS Training Course offered by TRACC
+
+|| *Link*    																											
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%200%20-%20CAS%20Example%20(final).pdf  TRANSIMS Application in Chicago			]				
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%201%20-%20Introduction%20(final).pdf 	1-Introduction.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%202%20-%20Network%20(final).pdf 	2-Network.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%203%20-%20Population%20(final).pdf 	3-Population.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%204%20-%20Introduction%20(final).pdf 	4-Activities.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%205%20-%20Introduction%20(final).pdf 	5-Routing.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%206%20-%20Introduction%20(final).pdf 	6-Microsimulation.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%207%20-%20Introduction%20(final).pdf 	7-Feedback.pdf] ||   	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%208%20-%20Introduction%20(final).pdf 	8-Framework.pdf] ||   	
+
+[http://code.google.com/p/transims/ Back to Front Page]
