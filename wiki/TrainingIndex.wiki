@@ -3,7 +3,7 @@
 December 2009
 
 ||| *Description*                       || *Link*    	||																										
-|| Application Example (Chicago) (6 MB) ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%200%20-%20CAS%20Example%20(final).pdf  TRANSIMS Application in Chicago ||				
+|| Application Example (Chicago) (6 MB) ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%200%20-%20CAS%20Example%20(final).pdf  TRANSIMS Application in Chicago] ||				
 || TRANSIMS Introduction (8 MB)         ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%201%20-%20Introduction%20(final).pdf 	1-Introduction.pdf] ||   	
 || Street and Transit NetworkS (1 MB)   ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%202%20-%20Network%20(final).pdf 	2-Network.pdf] ||   	
 || Population Synthesis (1 MB)          ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%203%20-%20Population%20(final).pdf 	3-Population.pdf] ||   	
