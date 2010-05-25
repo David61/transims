@@ -5,7 +5,7 @@ December 2009
 ||| *Description*                       || *Link*    	||																										
 || Application Example (Chicago) (6 MB) ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%200%20-%20CAS%20Example%20(final).pdf  TRANSIMS Application in Chicago] ||				
 || TRANSIMS Introduction (8 MB)         ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%201%20-%20Introduction%20(final).pdf 	1-Introduction.pdf] ||   	
-|| Street and Transit NetworkS (1 MB)   ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%202%20-%20Network%20(final).pdf 	2-Network.pdf] ||   	
+|| Street and Transit Networks (1 MB)   ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%202%20-%20Network%20(final).pdf 	2-Network.pdf] ||   	
 || Population Synthesis (1 MB)          ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%203%20-%20Population%20(final).pdf 	3-Population.pdf] ||   	
 || Generating Activities (0.5 MB)       ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%204%20-%20Activities%20(final).pdf 	4-Activities.pdf] ||   	
 || Routing: Highway and Transit (0.9 MB)||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%205%20-%20Routing%20(final).pdf 	5-Routing.pdf] ||   	
