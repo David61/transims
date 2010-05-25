@@ -32,9 +32,7 @@ The following table might be helpful.
 || Documentation: How To Guides || Guides and How-To pages on the transims-opensource wiki, or download from SourceForge || How-To Guides in http://transims.googlecode.com ||
 || Documentation: Software Manuals || Software pages on the transims-opensource wiki, or download from SourceForge || Documentation Index in http://transims.googlecode.com ||
 || TRANSIMS Case Studies || Project Zoo on the transims-opensource wiki || Case Studies in http://transims.googlecode.com ||
-|| Software Downloads || Link to http://sourceforge.net/projects/transims/
-from transims-opensource || Unchanged:  Link to http://sourceforge.net/projects/transims/
-from http://transims.googlecode.com ||
+|| Software Downloads || Link to http://sourceforge.net/projects/transims/ from transims-opensource || Unchanged:  Link to http://sourceforge.net/projects/transims/ from http://transims.googlecode.com ||
 
 *6.  What should I bookmark?*  
 
