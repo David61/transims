@@ -25,7 +25,7 @@ Two ways:
 
 The following table might be helpful.  
 
-|| Function || Old Location || New Location ||
+|| *Function* || *Old Location* || *New Location* ||
 || Overall entry point || http://www.transims-opensource.net/ || http://transims.googlecode.com ||
 || Users Forum || First Aid Station and other forums on transims-opensource, or Texas A&M listserve || TRANSIMS User Group, accessed from http://transims.googlecode.com || 
 || Developers Forum || Software Workshop on transims-opensource || TRANSIMS Developer Group, accessed from http://transims.googlecode.com ||
