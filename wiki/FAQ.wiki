@@ -16,7 +16,7 @@ Apache is one of the open-source licenses that Google Code does support.  Since 
 
 Two ways:  
 
-1.	Log into the user group,[http://groups.google.com/group/transims_ug ] , and post either a new discussion item, or a reply to an existing discussion item.
+1.	Log into the user group, [http://groups.google.com/group/transims_ug], and post either a new discussion item, or a reply to an existing discussion item.
 
 2.	Send an e-mail to [transims_ug@googlegroups.com] .  The e-mail account from which you are sending your message must be a member of the group.  If you send an e-mail, you can include an attachment.  
 
@@ -25,17 +25,11 @@ Two ways:
 The following table might be helpful.  
 || Function || Old Location || New Location ||
 || Overall entry point || http://www.transims-opensource.net/ || http://transims.googlecode.com ||
-|| Users Forum || First Aid Station and other forums on transims-opensource, or 
-Texas A&M listserve || TRANSIMS User Group, accessed from
-http://transims.googlecode.com || 
-|| Developers Forum || Software Workshop on transims-opensource || TRANSIMS Developer Group, accessed from
-http://transims.googlecode.com||
-|| Current News on TRANSIMS ||  News section of transims-opensource || Project News on the front page of http://transims.googlecode.com  
-or the news blog home page:
-http://transimsnews.blogspot.com/ ||
+|| Users Forum || First Aid Station and other forums on transims-opensource, or Texas A&M listserve || TRANSIMS User Group, accessed from http://transims.googlecode.com || 
+|| Developers Forum || Software Workshop on transims-opensource || TRANSIMS Developer Group, accessed from http://transims.googlecode.com ||
+|| Current News on TRANSIMS ||  News section of transims-opensource || Project News on the front page of http://transims.googlecode.com or the news blog home page: http://transimsnews.blogspot.com/ ||
 || Basic information for new users || Getting Started section of transims-opensource || TRANSIMS Road Map in http://transims.googlecode.com ||
-|| Documentation: How To Guides || Guides and How-To pages on the transims-opensource wiki, or download from SourceForge || How-To Guides in 
-http://transims.googlecode.com ||
+|| Documentation: How To Guides || Guides and How-To pages on the transims-opensource wiki, or download from SourceForge || How-To Guides in http://transims.googlecode.com ||
 || Documentation: Software Manuals || Software pages on the transims-opensource wiki, or download from SourceForge || Documentation Index in http://transims.googlecode.com ||
 || TRANSIMS Case Studies || Project Zoo on the transims-opensource wiki || Case Studies in http://transims.googlecode.com ||
 ||Software Downloads || Link to http://sourceforge.net/projects/transims/
