@@ -1,4 +1,4 @@
-#summary  Frequently Asked Questions about moving the TRANSIMS Community Site	
+#summary Frequently Asked Questions about moving the TRANSIMS Community Site
 
 * 1.  Why the move? * 
 
@@ -15,23 +15,25 @@ Apache is one of the open-source licenses that Google Code does support.  Since 
 *4.  How do I post a question?*  
 
 Two ways:  
+
 1.	Log into the user group,[http://groups.google.com/group/transims_ug ] , and post either a new discussion item, or a reply to an existing discussion item.
+
 2.	Send an e-mail to [transims_ug@googlegroups.com] .  The e-mail account from which you are sending your message must be a member of the group.  If you send an e-mail, you can include an attachment.  
 
 *5. I know where to find things on the old site; where do I look on the new site?*
   
 The following table might be helpful.  
-||| Function|| Old Location ||New Location
-||Overall entry point || http://www.transims-opensource.net/ || http://transims.googlecode.com ||
-||Users Forum||First Aid Station and other forums on transims-opensource, or 
-Texas A&M listserve||TRANSIMS User Group, accessed from
+|| Function || Old Location ||New Location
+|| Overall entry point || http://www.transims-opensource.net/ || http://transims.googlecode.com ||
+|| Users Forum || First Aid Station and other forums on transims-opensource, or 
+Texas A&M listserve || TRANSIMS User Group, accessed from
+http://transims.googlecode.com ||
+|| Developers Forum || Software Workshop on transims-opensource ||T RANSIMS Developer Group, accessed from
 http://transims.googlecode.com||
-||Developers Forum||Software Workshop on transims-opensource ||TRANSIMS Developer Group, accessed from
-http://transims.googlecode.com||
-||Current News on TRANSIMS||News section of transims-opensource||Project News on the front page of http://transims.googlecode.com  
+|| Current News on TRANSIMS || News section of transims-opensource || Project News on the front page of http://transims.googlecode.com  
 or the news blog home page:
-http://transimsnews.blogspot.com/||
-||Basic information for new users||Getting Started section of transims-opensource||TRANSIMS Road Map in http://transims.googlecode.com||
+http://transimsnews.blogspot.com/ ||
+|| Basic information for new users || Getting Started section of transims-opensource||TRANSIMS Road Map in http://transims.googlecode.com||
 ||Documentation: How To Guides||Guides and How-To pages on the transims-opensource wiki, or download from SourceForge||How-To Guides in 
 http://transims.googlecode.com||
 ||Documentation: Software Manuals||Software pages on the transims-opensource wiki, or download from SourceForge||Documentation Index in 
@@ -50,9 +52,7 @@ If you participate in the users group, [http://groups.google.com/group/transims_
 *7.  What Internet browsers are best for this site?*  
 
 The site was developed for Internet Explorer 7.  However, we have tested it with Internet Explorer 8, Safari and Chrome.   The site functions under all of these browsers, with some minor known issues:
-  *Internet Explorer 8 – Improper line breaks on some pages.  Difficulty with photographic attachments. 
-  *Chrome – Some html documents show up as source code
-  *Firefox – Some html documents show up as source code
-  *Safari - 
-
-
+  * Internet Explorer 8 - Improper line breaks on some pages.  Difficulty with photographic attachments. 
+  * Chrome - Some html documents show up as source code
+  * Firefox - Some html documents show up as source code
+  * Safari - 
