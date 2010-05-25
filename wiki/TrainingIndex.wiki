@@ -1,4 +1,4 @@
-#summary TRANSIMS Training Course offered by TRACC
+#summary TRANSIMS Training Course offered by the Transportation Research and Analysis Computing Center (TRACC) at Argonne National Laboratory
 
 December 2009
 
