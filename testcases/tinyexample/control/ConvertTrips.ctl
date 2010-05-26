@@ -1,7 +1,7 @@
 TITLE                         TestBed Trip Table Conversion  
 PROJECT_DIRECTORY           ../demand/ 
 NET_DIRECTORY                 ../network/ 
-NET_ACTIVITY_LOCATION_TABLE   Activity_Location.txt
+NET_ACTIVITY_LOCATION_TABLE   Activity_Location_Weighted.txt
 NET_PROCESS_LINK_TABLE        Process_Link.txt
 DEMAND_FILE_FORMAT        TAB_DELIMITED
 VEHICLE_TYPE_FILE           Vehicle_Type.txt
