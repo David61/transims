@@ -3,9 +3,11 @@
 [http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
 
 Once the network and trip tables have been assembled, the next step is to run the TRANSIMS model. Three phases are involved in this effort:
-  * Router stabilization-the router is run on subsets of the trips to produce reasonable Volume-to-Capacity (V/C) ratios across the network. This process provides the initial estimates of traffic flow for the microsimulator, but is not the final step. 
-  * Microsimulator stabilization-both the router and the microsimulator are run in order to produce a stable set of trips.
-  * User equilibrium-both the router and the microsimulator are run to adjust trips to reach a true user equilibrium where no user can improve travel times by changing routes. 
+  * *Router stabilization:* the router is run on subsets of the trips to produce reasonable Volume-to-Capacity (V/C) ratios across the network. This process provides the initial estimates of traffic flow for the microsimulator, but is not the final step. 
+
+  * *Microsimulator stabilization:* both the router and the microsimulator are run in order to produce a stable set of trips.
+
+  * *User equilibrium:* both the router and the microsimulator are run to adjust trips to reach a true user equilibrium where no user can improve travel times by changing routes. 
 
 =Router Stabilization=
 
