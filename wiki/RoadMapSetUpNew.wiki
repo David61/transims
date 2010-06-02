@@ -5,13 +5,15 @@
 
 Network preparation typically involves taking a network from an existing model, and converting it to a TRANSIMS network.  The two major sub-steps are highway network preparation and transit network preparation.  
 
-*Example Network:* [TinyExampleInfo An example TRANSIMS network] is available to demonstrate many of the steps in this guide. It is recommended that new users download the example network to try running the procedures.
+*Example Network:* [TinyExampleInfo An example TRANSIMS network] is available to demonstrate many of the steps in this guide. It is recommended that new users download the example network and try running the procedures.
 
 See an image of the example network [http://transims.googlecode.com/svn/testcases/tinyexample/inputnetwork/TinyNetwork.pdf here].
 
 ==Highway Network Preparation: Typical Process==
 
-1. Starting data typically includes a list of [http://transims.googlecode.com/svn/testcases/tinyexample/inputnetwork/Input_NodeOriginal.txt nodes] (with UTM coordinates) and a list of [http://transims.googlecode.com/svn/testcases/tinyexample/inputnetwork/Input_LinkOriginal.txt links] (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS [http://transims.googlecode.com/svn/testcases/tinyexample/inputnetwork/Input_Shape.txt shape] file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
+1. Starting data typically includes a list of *nodes* (with UTM coordinates) and a list of *links* (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS *shape file* and *turning restrictions*.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files.
+
+In the example network, the *node*, *link*, *shape*, and *turn restriction* files are located in the "inputnetwork/" directory. 
 
 2. Before performing the network conversion, it is best to correct any errors in the input network.  Steps to consider include
   * Remove links and nodes that are not needed for the model.  These may include internal centroid connectors.  
