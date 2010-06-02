@@ -5,7 +5,7 @@
 
 Network preparation typically involves taking a network from an existing model, and converting it to a TRANSIMS network.  The two major sub-steps are highway network preparation and transit network preparation.  
 
-An example TRANSIMS highway network is available [http://transims.googlecode.com/svn/testcases/TinyExample.zip here].
+An example TRANSIMS highway network is available [TinyExampleInfo here].
 
 ==Highway Network Preparation: Typical Process==
 
