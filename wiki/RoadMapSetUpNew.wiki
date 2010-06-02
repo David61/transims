@@ -11,9 +11,7 @@ See an image of the example network [http://transims.googlecode.com/svn/testcase
 
 ==Highway Network Preparation: Typical Process==
 
-1. Starting data typically includes:
-  * a list of *nodes*, with UTM coordinates 
-  * a list of *links*, with origin / destination node, length, number of lanes in each direction, speed, capacity and other information
+1. Starting data typically includes a list of *nodes* (with UTM coordinates) and a list of *links* (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).
 
 Optional information includes a TRANSIMS *shape file* and *turning restrictions*.  
 
