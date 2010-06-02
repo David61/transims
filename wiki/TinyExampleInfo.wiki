@@ -1,12 +1,12 @@
 #summary Set up information for the TinyExample network
 
-= TinyExample! =
+= !TinyExample =
 
-The TinyExample! network is an extremely simple TRANSIMS model that is used to illustrate the key procedures in TRANSIMS.
+The !TinyExample network is an extremely simple TRANSIMS model that is used to illustrate the key procedures in TRANSIMS.
 
 = Setup =
 
-  # [http://transims.googlecode.com/svn/testcases/TinyExample.zipDownload the TinyExample! network here (.zip format, 223kb)
+  # [http://transims.googlecode.com/svn/testcases/TinyExample.zip Download the !TinyExample network here (.zip format, 223kb)]
   # Unzip the file to a working directory of your choice
 
 = Contents ==
