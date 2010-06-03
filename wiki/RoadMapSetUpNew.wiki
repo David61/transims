@@ -73,6 +73,8 @@ _*Example Network:* Run _!ArcNet.bat_ from the _'batch'_ folder.  The control fi
 Other references that may be useful for highway network preparation include
 [http://transims.googlecode.com/svn/documentation/quickreference/Progression%20QR.pdf Progression QR], [http://transims.googlecode.com/svn/documentation/howto/Installation%20and%20Testing%20How-To.doc Installation and Testing How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing User Manual], [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Data Tables], [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To (New)], [http://transims.googlecode.com/svn/documentation/howto/Network%20Edit%20How-To.doc Network Edit How-To]
 
+----
+
 ==Transit Network Preparation:  Typical Process==
 
 UNDER CONSTRUCTION
