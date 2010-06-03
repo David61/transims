@@ -6,7 +6,20 @@ Once the network and trip tables have been assembled, the next step is to run th
   * *Router stabilization:* the router is run on subsets of the trips to produce reasonable Volume-to-Capacity (V/C) ratios across the network. This process provides the initial estimates of traffic flow for the microsimulator, but is not the final step.<br><br>
   * *Microsimulator stabilization:* both the router and the microsimulator are run in order to produce a stable set of trips.<br><br>
   * *User equilibrium:* both the router and the microsimulator are run to adjust trips to reach a true user equilibrium where no user can improve travel times by changing routes.
-----
+
+Several modules of the TRANSIMS training course provide relevant material: 
+
+||| *Module*  ||  *Description* ||
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%205%20-%20Routing%20(final).pdf 	5-Routing.pdf] ||   TRANSIMS Router: street and transit networks (0.9 MB)|| 	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%206%20-%20Microsimulation%20(final).pdf 	6-Microsimulation.pdf] ||   TRANSIMS Microsimulator (2 MB) ||	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%207%20-%20Feedback%20(final).pdf 	7-Feedback.pdf] ||  Convergence & Equilibration. Describes router, microsimulator stabilization and user equilibrium (0.9 MB) ||	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%208%20-%20Framework%20(final).pdf 	8-Framework.pdf] ||  Overview of downloading and running the various TRANSIMS programs (2 MB) || 	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%209%20-%20Control%20Files%20(final).pdf 	9-Control Files.pdf] ||  Short overview of TRANSIMS control files (0.3 MB) || 	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2012%20-%20Subarea%20Simulation%20(final).pdf 	12-Subarea Simulation.pdf] ||  Subarea microsimulation (1 MB) || 	  	
+||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2014%20-%20Partitions%20(final).pdf 	14-Parallelization.pdf] ||   Parallelization and partitioning, used for large implementations on multi-CPU clusters (1 MB) ||
+
+
+
 =Router Stabilization=
 
 In this phase, the router is run repeatedly to produce a "reasonable" V/C ratios across the network.  A stabilization process may involve anywhere from 5 to 60 iterations.  Each iteration typically includes the following steps:
