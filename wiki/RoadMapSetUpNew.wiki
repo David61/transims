@@ -74,8 +74,9 @@ Other references that may be useful for highway network preparation include
 
 ----
 
-==Transit Network Preparation:  Typical Process==
 <wiki:comment>
+==Transit Network Preparation:  Typical Process==
+
 UNDER CONSTRUCTION
 
 How Tos: [http://transims.googlecode.com/svn/documentation/howto/Transit%20Network%20How-To.doc Transit Network How-To]
@@ -98,7 +99,7 @@ Two modifications that are typically performed include converting the numbers of
 
 Run a script to create TRANSIMS-format trip tables and trip times suitable for input into the TRANSIMS !ConvertTrips program
 
-_*Example Network:* Trip tables are already TRANSIMS-friendly.
+_*Example Network:* Trip tables are already TRANSIMS-friendly._
 
 ----
 
@@ -109,6 +110,8 @@ This typically includes the following:
   * Identify those zones that are still not covered by any activity location, and reassign some activity locations to those zones.
   * For external zones and their associated activity locations on one-way (freeway) links, make sure that the inbound link is associated with an origin activity location, and the outbound link with a destination activity location. This is typically done by adding two fields to the Activity_Location table, ORIGCoef and DESTCoef, whose values are initially set to 1.  If we want to turn an activity location off, either as an origin or destination, the corresponding coefficient field is set to 0. For small networks, this process can be done using a [http://transims.googlecode.com/svn/testcases/tinyexample/network/Activity_Location.xls spreadsheet].  The first sheet in this workbook contains the activity locations produced by !TransimsNet.  The second contains the locations with ORIGCoef and DESTCoef fields added. Note that locations 11 and 12 were also set to 0, since they were on a freeway overpass.  
 
+
+_*Example Network:* A spreadsheet of activity locations is in the _'NETWORK???'_ directory.  The file _'Activity_Locations_Weighted.txt'_, previously generated from the spreadsheet, contains a list of demand-weighted activity locations.  This file can be used as-is, or overwritten with any modifications from the spreadsheet._
 ----
 
 ===3. Run ConvertTrips=== 
