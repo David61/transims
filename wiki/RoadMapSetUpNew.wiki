@@ -102,13 +102,18 @@ _*Example Network:* Trip tables are already TRANSIMS-friendly.
 
 ----
 
-3. Make any needed modifications to the activity locations. This typically includes the following:
+===2. Make any needed modifications to the activity locations===
+
+This typically includes the following:
   * If a shape file of zones is available, use [http://transims.googlecode.com/svn/documentation/quickreference/LocationData%20QR.pdf LocationData] to assign the activity locations to the proper zones
   * Identify those zones that are still not covered by any activity location, and reassign some activity locations to those zones.
   * For external zones and their associated activity locations on one-way (freeway) links, make sure that the inbound link is associated with an origin activity location, and the outbound link with a destination activity location. This is typically done by adding two fields to the Activity_Location table, ORIGCoef and DESTCoef, whose values are initially set to 1.  If we want to turn an activity location off, either as an origin or destination, the corresponding coefficient field is set to 0. For small networks, this process can be done using a [http://transims.googlecode.com/svn/testcases/tinyexample/network/Activity_Location.xls spreadsheet].  The first sheet in this workbook contains the activity locations produced by !TransimsNet.  The second contains the locations with ORIGCoef and DESTCoef fields added. Note that locations 11 and 12 were also set to 0, since they were on a freeway overpass.  
 
-4. Run the TRANSIMS 
-[http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%20v4.0.pdf  Convert Trips (Full)] [http://transims.googlecode.com/svn/documentation/quickreference/ConvertTrips%20QR.pdf (QR)] [http://transims.googlecode.com/svn/testcases/tinyexample/control/ConvertTrips.ctl (Sample Control File)]  program to convert the trip tables and trip time data into Trip, Household, Population and Vehicle files. These files contain the individual trips that are used as input to the TRANSIMS Router. 
+----
+
+===3. Run ConvertTrips=== 
+
+The [http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%20v4.0.pdf  Convert Trips (Full)] [http://transims.googlecode.com/svn/documentation/quickreference/ConvertTrips%20QR.pdf (QR)] [http://transims.googlecode.com/svn/testcases/tinyexample/control/ConvertTrips.ctl (Sample Control File)] program converts the trip tables and trip time data into *Trip*, *Household*, *Population*, and *Vehicle* files. These files contain the individual trips that are used as input to the TRANSIMS Router. 
 
 Other references that may be useful for trip table conversion include
 
