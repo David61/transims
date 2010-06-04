@@ -82,7 +82,9 @@ How Tos:  [http://transims.googlecode.com/svn/documentation/howto/Transit%20Netw
 
 ==Network Editing==
 
-Network editing is part of the two previously-described processes. 
+Network editing is part of the two previously-described processes.
+
+---- 
 
 =Trip Table Conversion= 
 
