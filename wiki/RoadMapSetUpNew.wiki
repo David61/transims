@@ -126,6 +126,10 @@ Other references that may be useful for trip table conversion include
 !SmoothData
 </wiki:comment>
 
+_*Example Network:* Run _'batch\ConvertTrips.bat'_.  The control file used for this is _'control\ConvertTrips.ctl'. 
+
+----
+
 =Activity Generation=
 
 UNDER CONSTRUCTION
