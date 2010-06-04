@@ -1,4 +1,4 @@
-#summary TRANSIMS Road Map
+#summary Getting Started with TRANSIMS
 TRANSIMS is an integrated set of tools developed to conduct regional transportation system analyses. Implementations follow three major phases. Click below to find out more about each phase:  
 
 [http://code.google.com/p/transims/wiki/RoadMapSetUp  Setting up the model]
