@@ -1,7 +1,7 @@
 #summary Navigation side bar for all wiki pages.
-==Navigation==
-
 *[RoadMap Getting Started]
+
+*[TrainingIndex Training]
 
 *[DocumentationIndex Documentation]
 
