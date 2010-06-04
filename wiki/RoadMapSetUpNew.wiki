@@ -114,7 +114,7 @@ This typically includes the following:
 _*Example Network:* A spreadsheet of activity locations is in the _'NETWORK???'_ directory.  The file _'Activity_Locations_Weighted.txt'_, previously generated from the spreadsheet, contains a list of demand-weighted activity locations.  This file can be used as-is, or overwritten with any modifications from the spreadsheet._
 ----
 
-===3. Run ConvertTrips=== 
+===3. !Run ConvertTrips=== 
 
 The [http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%20v4.0.pdf  Convert Trips (Full)] [http://transims.googlecode.com/svn/documentation/quickreference/ConvertTrips%20QR.pdf (QR)] [http://transims.googlecode.com/svn/testcases/tinyexample/control/ConvertTrips.ctl (Sample Control File)] program converts the trip tables and trip time data into *Trip*, *Household*, *Population*, and *Vehicle* files. These files contain the individual trips that are used as input to the TRANSIMS Router. 
 
@@ -122,7 +122,7 @@ Other references that may be useful for trip table conversion include
 
 [http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table How-To]
 
-SmoothData
+!SmoothData
 
 =Activity Generation=
 
