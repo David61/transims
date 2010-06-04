@@ -86,13 +86,21 @@ Network editing is part of the two previously-described processes.
 
 <HR>
 </wiki:comment>
-==Trip Table Conversion==
+=Trip Table Conversion=
 
-A trip-table based TRANSIMS implementation uses trip table, trip time and activity location files.  The trip table files list the trips by origin zone and destination zone.  The trip time files define how those trips are distributed by time-of-day.  The activity location file associates each zone with one or more activity locations. Steps for preparing TRANSIMS trips from trip tables include the following.  
+A trip-table based TRANSIMS implementation uses *trip table*, *trip time*, and *activity location* files.  
+The *trip table* files list the trips by origin zone and destination zone.  The *trip time* files define how those trips are distributed by time-of-day.  The *activity location* file associates each zone with one or more activity locations. Steps for preparing TRANSIMS trips from trip tables include the following.  
 
-1. Modify the input trip tables that came from the four-step model. Two modifications that are typically performed include converting the numbers of trips to integers, and (possibly) the removal of intrazonal trips. 
+----
 
-2. Run a script to create TRANSIMS-format trip tables and trip times suitable for input into the TRANSIMS ConvertTrips program
+===1. Modify input trip tables from the four-step model===
+Two modifications that are typically performed include converting the numbers of trips to integers, and (possibly) the removal of intrazonal trips. 
+
+Run a script to create TRANSIMS-format trip tables and trip times suitable for input into the TRANSIMS !ConvertTrips program
+
+_*Example Network:* Trip tables are already TRANSIMS-friendly.
+
+----
 
 3. Make any needed modifications to the activity locations. This typically includes the following:
   * If a shape file of zones is available, use [http://transims.googlecode.com/svn/documentation/quickreference/LocationData%20QR.pdf LocationData] to assign the activity locations to the proper zones
