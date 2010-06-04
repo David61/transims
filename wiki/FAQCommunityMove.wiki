@@ -1,0 +1,53 @@
+#summary Frequently Asked Questions about moving the TRANSIMS Community Site
+
+* 1.  Why the move? * 
+
+The current site (transims-opensource.net) has been difficult to maintain, with a dedicated administrator required for disruptions, tech support, and major changes.  The lack of e-mail notification on the forums has proved problematic.   Fragmentation of the community among multiple sites (Sourceforge, the listserv and transims-opensource) is also confusing.  
+
+*2. The source code is still on SourceForge.  Why not move everything?*  
+
+Two reasons:  First, the downloads from SourceForge seem to be working well, although, in our opinion, the ancillary functions (forums, documentation and the like) are stronger in Google.   Therefore, the code downloads are being left on SourceForge.   The second reason concerns licensing.  TRANSIMS is released under the NASA Open Source Agreement, a license that is not currently supported by Google Code.  Therefore, the TRANSIMS code is remaining on SourceForge so that it can continue to be released under the NASA license.   
+
+*3.  Why the Apache license on Google?*
+
+Apache is one of the open-source licenses that Google Code does support.  Since our code remains on SourceForge, the Apache license is primarily a placeholder.  However, the Apache license seems to have some features in common with the NASA license, including the requirement to identify modifications as such, an explicit patent clause, and the ability to link to code under a different license.  
+
+*4.  How do I post a question?*  
+
+Two ways:  
+
+1.	Log into the user group, [http://groups.google.com/group/transims_ug], and post either a new discussion item, or a reply to an existing discussion item.
+
+2.	Send an e-mail to [transims_ug@googlegroups.com] .  The e-mail account from which you are sending your message must be a member of the group.  If you send an e-mail, you can include an attachment.  
+
+*5. I know where to find things on the old site; where do I look on the new site?*
+  
+
+The following table might be helpful.  
+
+|| *Function* || *Old Location* || *New Location* ||
+|| Overall entry point || http://www.transims-opensource.net/ || http://transims.googlecode.com ||
+|| Users Forum || First Aid Station and other forums on transims-opensource, or Texas A&M listserve || TRANSIMS User Group, accessed from http://transims.googlecode.com || 
+|| Developers Forum || Software Workshop on transims-opensource || TRANSIMS Developer Group, accessed from http://transims.googlecode.com ||
+|| Current News on TRANSIMS ||  News section of transims-opensource || Project News on the front page of http://transims.googlecode.com or the news blog home page: http://transimsnews.blogspot.com/ ||
+|| Basic information for new users || Getting Started section of transims-opensource || TRANSIMS Road Map in http://transims.googlecode.com ||
+|| Documentation: How To Guides || Guides and How-To pages on the transims-opensource wiki, or download from SourceForge || How-To Guides in http://transims.googlecode.com ||
+|| Documentation: Software Manuals || Software pages on the transims-opensource wiki, or download from SourceForge || Documentation Index in http://transims.googlecode.com ||
+|| TRANSIMS Case Studies || Project Zoo on the transims-opensource wiki || Case Studies in http://transims.googlecode.com ||
+|| Software Downloads || Link to http://sourceforge.net/projects/transims/ from transims-opensource || Unchanged:  Link to http://sourceforge.net/projects/transims/ from http://transims.googlecode.com ||
+
+*6.  What should I bookmark?*  
+
+The following sites provides all of the key links [http://transims.googlecode.com] 
+
+If you participate in the users group, [http://groups.google.com/group/transims_ug]
+
+*7.  What Internet browsers are best for this site?*  
+
+The site was developed for Internet Explorer 7.  However, we have tested it with Firefox, Internet Explorer 8, Safari and Chrome.   The site functions under all of these browsers, with some minor known issues:
+  * Internet Explorer 8 - Improper line breaks on some pages.  Difficulty with photographic attachments. 
+  * Chrome - Some html documents show up as source code
+  * Firefox - Some html documents show up as source code
+  * Safari - 
+
+[http://code.google.com/p/transims/ Back to Front Page]
