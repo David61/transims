@@ -1,6 +1,6 @@
 #summary Running the TRANSIMS Model
 
-[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
+[http://code.google.com/p/transims/wiki/GettingStarted Back to Getting Started]
 
 Once the network and trip tables have been assembled, the next step is to run the TRANSIMS model. Three phases are involved in this effort:
   * *Router stabilization:* the router is run on subsets of the trips to produce reasonable Volume-to-Capacity (V/C) ratios across the network. This process provides the initial estimates of traffic flow for the microsimulator, but is not the final step.<br><br>
@@ -17,7 +17,6 @@ Several modules of the TRANSIMS training course provide relevant material:
 ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%209%20-%20Control%20Files%20(final).pdf 	9-Control Files.pdf] ||  Short overview of TRANSIMS control files (0.3 MB) || 	
 ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2012%20-%20Subarea%20Simulation%20(final).pdf 	12-Subarea Simulation.pdf] ||  Subarea microsimulation (1 MB) || 	  	
 ||  [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2014%20-%20Partitions%20(final).pdf 	14-Parallelization.pdf] ||   Parallelization and partitioning, used for large implementations on multi-CPU clusters (1 MB) ||
-
 
 
 =Router Stabilization=
@@ -87,4 +86,4 @@ Inputs to the Router include the network, a set of trips, and congested travel t
 
 7. Run [http://transims.googlecode.com/svn/documentation/quickreference/LinkDelay%20QR.pdf LinkDelay (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
 
-[http://code.google.com/p/transims/wiki/RoadMap Back to Road Map]
+[http://code.google.com/p/transims/wiki/GettingStarted Back to Getting Started]
