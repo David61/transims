@@ -1,6 +1,8 @@
 #summary Setting Up the Model
 [http://code.google.com/p/transims/wiki/GettingStarted Back to Getting Started]
 
+<wiki:toc max_depth="1" />
+
 =Network Preparation=
 
 Network preparation typically involves taking a network from an existing model, and converting it to a TRANSIMS network.  The two major sub-steps are highway network preparation and transit network preparation.  
