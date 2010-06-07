@@ -1,11 +1,11 @@
 #summary Getting Started with TRANSIMS
 TRANSIMS is an integrated set of tools developed to conduct regional transportation system analyses. Implementations follow three major phases. Click below to find out more about each phase:  
 
-[http://code.google.com/p/transims/wiki/RoadMapSetUp  Setting up the model]
+[http://code.google.com/p/transims/wiki/GettingStartedSetUp  Setting up the model]
 
-[http://code.google.com/p/transims/wiki/RoadMapRun  Running the model]
+[http://code.google.com/p/transims/wiki/GettingStartedRun  Running the model]
 
-[http://code.google.com/p/transims/wiki/RoadMapReview  Reviewing the results]
+[http://code.google.com/p/transims/wiki/GettingStartedReview  Reviewing the results]
  
 
 The diagram illustrates the process. You may have a "Track 1" or "Track 2" implementation.  The "Track 1" implementation uses the left branch of the diagram.  It uses trip tables, the router and the microsimulator.  The "Track 2" implementation uses the right branch, and adds the activity-based components of TRANSIMS, such as the population synthesizer. 
