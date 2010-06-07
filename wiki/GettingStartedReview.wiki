@@ -33,4 +33,4 @@ TRANSIMS programs to assist in visualization include the following.  These progr
 Two sections of the TRANSIMS training course deal with visualization of results. They include [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2011%20-%20GIS%20Tools%20(final).pdf 	11-GIS Tools.pdf] (3 MB), and   	
 [http://transims.googlecode.com/svn/documentation/training/TRANSIMS%20-%2017%20-%20Animations%20(final).pdf 	17-Animations.pdf] (2 MB).  These sections of the training course describe some of the open source tools, such as NEXTA and Metropolis, that are available for reviewing TRANSIMS results.  
 
-[http://code.google.com/p/transims/wiki/Getting Started Back to Getting Started]
+[http://code.google.com/p/transims/wiki/GettingStarted Back to Getting Started]
