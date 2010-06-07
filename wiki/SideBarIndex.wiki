@@ -1,5 +1,5 @@
 #summary Navigation side bar for all wiki pages.
-*[RoadMap Getting Started]
+*[GettingStarted Getting Started]
 
 *[TrainingIndex Training]
 
