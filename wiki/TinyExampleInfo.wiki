@@ -6,7 +6,7 @@ The !TinyExample network is an extremely simple TRANSIMS model that is used to i
 
 = Setup =
 
-  # [http://transims.googlecode.com/svn/testcases/TinyExample.zip Download the TinyExample network here (.zip format, 223kb)]
+  # [http://transims.googlecode.com/svn/trunk/Testcases/TinyExample.zip Download the TinyExample network here (.zip format, 223kb)]
   # Unzip the file to a working directory of your choice
 
 = Contents ==
