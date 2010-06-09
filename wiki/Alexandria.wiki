@@ -142,7 +142,7 @@ In summary, in the HBW, HBO, and NHB files, we have for our Alexandria test case
     * [[http://transims-opensource.org/index.php?option=com_docman&task=doc_download&gid=90|"Network Editing How-To"]]
     * [[http://transims-opensource.org/index.php?option=com_docman&task=doc_download&gid=87|"Highway Network Conversion How-To"]]
     * [[http://transims-opensource.org/index.php?option=com_docman&task=doc_download&gid=91|"Transit Network Conversion How-To"]]
-    * [[http://transims.svn.sourceforge.net/viewvc/transims/version4/trunk/doc/how_to/Trip%20Table%20How-To.doc|"Trip Table Conversion How-To"]]
+    * [[http://transims.svn.sourceforge.net/viewvc/transims/version4/trunk/doc/how_to/Trip%20Table%20Conversion%20How-To.doc|"Trip Table Conversion How-To"]]
   * the April 2008 [[http://transims-opensource.org/wiki/doku.php?id=guides:anl_transims_introduction:start|TRANSIMS Training Course at TRACC]]
 
   * the [[data:datasets:alexandria:version4:start|Alexandria data set file catalog]]

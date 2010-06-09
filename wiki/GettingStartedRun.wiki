@@ -34,7 +34,7 @@ Inputs to the Router include the network and a set of trips.  After the first it
 
 5. Run [http://transims.googlecode.com/svn/trunk/documentation/quickreference/PlanSelect%20QR.pdf PlanSelect (QR)] to choose those plans to be rerouted in the next iteration. Typically, the plans traversing links with the highest V/C ratios are chosen.  One may also choose plans where the travel time has changed significantly. 
 
-A useful reference is [http://transims.googlecode.com/svn/trunk/documentation/howto/Router%20and%20Router%20Feedback%20How-To.doc Router and Router Feedback How-To]
+A useful reference is [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-7_Router%20and%20Router%20Feedback%20How-To.pdf Router and Router Feedback How-To]
 
 =Microsimulator Stabilization=
 
@@ -63,7 +63,7 @@ Inputs to the Router include the network, a set of trips, the list of households
 
 10. Add the households identifed in step 9 to the list of households. 
 
-A useful reference is the [http://transims.googlecode.com/svn/trunk/documentation/howto/Microsimulator%20How-To.doc  Microsimulator How-To]. 
+A useful reference is the [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-8_Microsimulator%20How-To.pdf  Microsimulator How-To]. 
 
 =User Equilibrium=
 

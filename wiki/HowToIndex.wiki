@@ -2,22 +2,22 @@
 
 == How To: ==
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-0_Installation%20and%20Testing%20How-To.pdf Install and test the software]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-0_Installation%20and%20Testing%20How-To.pdf Install and test the software]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-4_Population%20Synthesizer%20How-To.pdf Prepare 2000 US Census data and generate a synthetic population]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-4_Population%20Synthesizer%20How-To.pdf Prepare 2000 US Census data and generate a synthetic population]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-5_Activity%20Generator%20How-To.pdf Generate activities for a synthetic population]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-5_Activity%20Generator%20How-To.pdf Generate activities for a synthetic population]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-1_Highway%20Network%20How-To.pdf Develop a highway network]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-1_Highway%20Network%20How-To.pdf Develop a highway network]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-2_Transit%20Network%20How-To.pdf Develop a transit network]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-2_Transit%20Network%20How-To.pdf Develop a transit network]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-3_Network%20Edit%20How-To.pdf Edit a TRANSIMS network]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-3_Network%20Edit%20How-To.pdf Edit a TRANSIMS network]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-6_Trip%20Table%20How-To.pdf Use trip-tables in TRANSIMS]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-6_Trip%20Table%20Conversion%20How-To.pdf Use trip-tables in TRANSIMS]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-7_Router%20and%20Router%20Feedback%20How-To.pdf Generate routes including microsimulator and router integration]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-7_Router%20and%20Router%20Feedback%20How-To.pdf Generate routes including microsimulator and router integration]
 
-* [http://transims.googlecode.com/svn/documentation/howtopdf/Step-8_Microsimulator%20How-To.pdf Use the microsimulator]
+* [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-8_Microsimulator%20How-To.pdf Use the microsimulator]
 
 [http://code.google.com/p/transims/ Back to Front Page]

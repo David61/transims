@@ -72,7 +72,7 @@ _*Example Network:* The example network does not use a subarea._
 _*Example Network:* Run _!ArcNet.bat_ from the _'batch'_ folder.  The control file _'control\!ArcNet.ctl'_ is used for this procedure._
 
 Other references that may be useful for highway network preparation include
-[http://transims.googlecode.com/svn/documentation/quickreference/Progression%20QR.pdf Progression QR], [http://transims.googlecode.com/svn/documentation/howto/Installation%20and%20Testing%20How-To.doc Installation and Testing How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing User Manual], [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Data Tables], [http://transims.googlecode.com/svn/documentation/howto/Highway%20Network%20How-To.doc Highway Network How-To (New)], [http://transims.googlecode.com/svn/documentation/howto/Network%20Edit%20How-To.doc Network Edit How-To]
+[http://transims.googlecode.com/svn/documentation/quickreference/Progression%20QR.pdf Progression QR], [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-0_Installation%20and%20Testing%20How-To.pdf Installation and Testing How-To], [http://transims.googlecode.com/svn/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing User Manual], [http://transims.googlecode.com/svn/documentation/usermanuals/Network%20Data%20Tables.pdf Network Data Tables], [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-1_Highway%20Network%20How-To.pdf Highway Network How-To (New)], [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-3_Network%20Edit%20How-To.pdf Network Edit How-To]
 
 ----
 
@@ -81,7 +81,7 @@ Other references that may be useful for highway network preparation include
 
 UNDER CONSTRUCTION
 
-How Tos: [http://transims.googlecode.com/svn/documentation/howto/Transit%20Network%20How-To.doc Transit Network How-To]
+How Tos: [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-2_Transit%20Network%20How-To.pdf Transit Network How-To]
 
 ==Network Editing==
 
@@ -122,7 +122,7 @@ The [http://transims.googlecode.com/svn/documentation/usermanuals/ConvertTrips%2
 
 Other references that may be useful for trip table conversion include
 
-[http://transims.googlecode.com/svn/documentation/howto/Trip%20Table%20How-To.doc Trip Table How-To]
+[http://transims.googlecode.com/svn/trunk/documentation/howto/Step-6_Trip%20Table%20Conversion%20How-To.pdf Trip Table How-To]
 
 <wiki:comment>
 !SmoothData
@@ -136,7 +136,7 @@ _*Example Network:* Run _'batch\ConvertTrips.bat'_.  The control file used for t
 
 UNDER CONSTRUCTION
 
-How-Tos:  [http://transims.googlecode.com/svn/documentation/howto/Activity%20Generator%20How-To.doc Activity Generator How-To], [http://transims.googlecode.com/svn/documentation/howto/Population%20Synthesizer%20How-To.doc Population Synthesizer How-To]
+How-Tos:  [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-5_Activity%20Generator%20How-To.pdf Activity Generator How-To], [http://transims.googlecode.com/svn/trunk/documentation/howto/Step-4_Population%20Synthesizer%20How-To.pdf Population Synthesizer How-To]
 
 User Manuals:  [http://transims.googlecode.com/svn/documentation/usermanuals/ActGen%20v4.0.pdf ActGen],  [http://transims.googlecode.com/svn/documentation/usermanuals/PopSyn%20v4.0.pdf PopSyn]
 
