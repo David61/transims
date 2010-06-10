@@ -51,7 +51,7 @@ Inputs to the Router include the network, a set of trips, the list of households
 
 4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to sort the plans by departure time (needed for the microsimulator) 
 
-5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files.pdf outputs], including link delays for those links in the subarea. 
+5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files%20v4.0.pdf outputs], including link delays for those links in the subarea. 
 
 6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays (for those links NOT in the subarea). 
 
@@ -80,7 +80,7 @@ Inputs to the Router include the network, a set of trips, and congested travel t
 
 4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to sort the plans by departure time (needed for the microsimulator) 
 
-5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files.pdf outputs], including link delays for those links in the subarea. 
+5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files%20v4.0.pdf outputs], including link delays for those links in the subarea. 
 
 6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays (for those links NOT in the subarea). 
 
