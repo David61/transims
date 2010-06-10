@@ -2,7 +2,7 @@
 
 = How-To Guides: =
 
-==The TRANSIMS Process
+==The TRANSIMS Process==
 * [http://transims.googlecode.com/svn/v4/trunk/documentation/howto/Step-0_Installation%20and%20Testing%20How-To.pdf Step 0 - Install and test the software]
 
 * [http://transims.googlecode.com/svn/v4/trunk/documentation/howto/Step-1_Highway%20Network%20How-To.pdf Step 1 - Develop a highway network]
