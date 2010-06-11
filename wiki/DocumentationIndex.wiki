@@ -1,6 +1,6 @@
 #summary Below is a listing of all documentation for TRANSIMS v4.0.6
 
-For an overview of all available documentation, please refer to the *[http://transims.googlecode.com/svn/v4/trunk/documentation/Version%204.0.06%20Documentation%20Guide.pdf  TRANSIMS Version 4.0.06 Documentation Guide]*
+For an overview of all available documentation, please refer to the <BR> *[http://transims.googlecode.com/svn/v4/trunk/documentation/Version%204.0.06%20Documentation%20Guide.pdf  TRANSIMS Version 4.0.06 Documentation Guide]*
 
 *Change Logs:* [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Transims%204.0.5%20to%204.0.6a.pdf Current (Version 4.0.5 to 4.0.6a)] | [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Changelog_Archive.zip Archive (.zip)]
 
