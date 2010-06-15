@@ -6,6 +6,12 @@
 
 On April 8-9, 2010, the Transportation Research and Analysis Computing Center ([http://www.anl.gov/TRACC TRACC]) at Argonne National Laboratory hosted a TRANSIMS workshop, with some 20 presentations on various aspects of TRANSIMS.  Here is a [http://www.anl.gov/TRACC/Training/TMS/04_8-9_10/index.html link] to the abstracts and presentations. 
 
+== Sacramento DaySim Integration ==
+
+In 2009, RSG, Mark Bradley and John Bowman worked with the Sacramento Area Council of Governments (SACOG) to integrate an existing activty-based model (DaySim) with TRANSIMS.  DaySim is an activity-based model that simulates 24-hour itineraries on a “typical weekday” for individuals at a very fine spatial and temporal resolution. It is a major component of the Sacramento Activity-Based Travel Simulation Model (SACSIM) that has been recently developed for SACOG.
+
+[http://transims.googlecode.com/svn/v4/trunk/implementations/Sacramento%20DaySim-TRANSIMS%20Report.pdf Project Report (pdf)]
+
 == TRANSIMS Buffalo ==
 
 In 2007-2009, the Volpe Center worked with the Greater Buffalo Niagara Regional Transportation Council to develop an integrated planning / simulation model of the Buffalo / Niagara Falls area.  This was a track 1, trip-table based implementation of TRANSIMS that used the Router and subarea Microsimulation. The planning model encompasses the U.S. side of the entire region, while the subarea microsimulation component includes much more detailed modeling of the I-190 corridor, including the Lewiston-Queenston Bridge.  Areas of investigation included border crossing delay, toll delay and the impact of increased truck traffic.  
@@ -16,16 +22,26 @@ Project Presentation to the Transportation Border Working Group:  [http://www.th
 
 Project Report:  [http://transims.googlecode.com/svn/v4/trunk/implementations/TRANSIMSBuffaloFinalReportNov2009.htm  Final Report (html)]         [http://transims.googlecode.com/svn/v4/trunk/implementations/TRANSIMSBuffaloFinalReportNov2009.pdf Final Report (pdf)]
 
-== A second project ==
+== Atlanta ==
 
-In *dates*, *who* did *what*.  This was a *xxx* type of TRANSIMS implementation.  Areas of investigation included *yyy*.  
+In 2008, the Georgia Regional Transportation Authority (GRTA) in partnership with the Atlanta Regional Commission (ARC), the Georgia Environmental Protection Division (EPD) and AECOM implemented TRANSIMS in the Atlanta area. Study objectives included quantifying the potential congestion and emissions impacts of planned transportation projects and integration with the Motor Vehicle Emission Simulator (MOVES) model.  
 
-Project Report:  
+[http://transims.googlecode.com/svn/v4/trunk/implementations/Atlanta%20Peer%20Review%20Read%20Ahead.pdf  Peer Review Read Ahead (pdf)]
 
-== A third project ==
+== Chittenden County, Vermont ==
 
-...
+In 2007, Resource Systems Group (RSG) and the University of Vermont (UVM) worked with FHWA and the Chittenden County MPO (CCMPO) to implement TRANSIMS in the Burlington, Vermont area. This was a Track 1 (Trip table based) TRANSIMS implementation, intended as a proof of concept for other small and medium sized MPOs. 
 
-== And so on ==
+[http://transims.googlecode.com/svn/v4/trunk/implementations/Burlington%20Track%201%20Report.pdf  Project Report]
+
+== Portland ==
+
+2006 report by AECOM: 
+
+[http://transims.googlecode.com/svn/v4/trunk/implementations/Portland%20Track%201%20Report.pdf Using Traditional Model Data as Input to TRANSIMS Microsimulation (pdf)]
+
+2009 report by AECOM: 
+
+[http://transims.googlecode.com/svn/v4/trunk/implementations/Portland%20Phase%202%20Technical%20Report.pdf Revisiting the Portland GEN2 Modeling Process with TRANSIMS Version 4.0 Software Methods (pdf)]
 
 [http://code.google.com/p/transims/ Back to Front Page]
