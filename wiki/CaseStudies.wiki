@@ -6,9 +6,9 @@
 
 On April 8-9, 2010, the Transportation Research and Analysis Computing Center ([http://www.anl.gov/TRACC TRACC]) at Argonne National Laboratory hosted a TRANSIMS workshop, with some 20 presentations on various aspects of TRANSIMS.  Here is a [http://www.anl.gov/TRACC/Training/TMS/04_8-9_10/index.html link] to the abstracts and presentations. 
 
-== Sacramento DaySim Integration ==
+== Sacramento !DaySim Integration ==
 
-In 2009, RSG, Mark Bradley and John Bowman worked with the Sacramento Area Council of Governments (SACOG) to integrate an existing activty-based model (DaySim) with TRANSIMS.  DaySim is an activity-based model that simulates 24-hour itineraries on a “typical weekday” for individuals at a very fine spatial and temporal resolution. It is a major component of the Sacramento Activity-Based Travel Simulation Model (SACSIM) that has been recently developed for SACOG.
+In 2009, RSG, Mark Bradley and John Bowman worked with the Sacramento Area Council of Governments (SACOG) to integrate an existing activty-based model (!DaySim) with TRANSIMS.  !DaySim is an activity-based model that simulates 24-hour itineraries on a “typical weekday” for individuals at a very fine spatial and temporal resolution. It is a major component of the Sacramento Activity-Based Travel Simulation Model (SACSIM) that has been recently developed for SACOG.
 
 [http://transims.googlecode.com/svn/v4/trunk/implementations/Sacramento%20DaySim-TRANSIMS%20Report.pdf Project Report (pdf)]
 
