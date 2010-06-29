@@ -7,6 +7,8 @@ Network preparation typically involves taking a network from an existing model, 
 
 ==Highway Network Preparation:  Typical Process==
 
+*Example Network:* [TinyExampleInfo An example TRANSIMS network] is available to demonstrate many of the steps in this guide. It is recommended that new users download the example network and try running the procedures.
+
 Click [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/TinyNetwork.pdf here] to see a very simple network used to illustrate the concepts herein.  
 
 1. Starting data typically includes a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_NodeOriginal.txt nodes] (with UTM coordinates) and a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_LinkOriginal.txt links] (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Shape.txt shape] file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
