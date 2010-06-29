@@ -14,10 +14,10 @@ Click [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputne
 1. Starting data typically includes a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_NodeOriginal.txt nodes] (with UTM coordinates) and a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_LinkOriginal.txt links] (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Shape.txt shape] file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
 
 2. Before performing the network conversion, it is best to correct any errors in the input network.  Steps to consider include
-  * Remove links and nodes that are not needed for the model.  These may include internal centroid connectors.  
+  * Removing links and nodes that are not needed for the model.  These may include internal centroid connectors.  
   * Adding any new links or nodes that might be needed
   * Correcting the number of lanes and speeds on links
-  * Correction of links with extremely short lengths. 
+  * Editing links with extremely short lengths. 
   * If a signalized divided arterial is represented as two one-way links, converting those links into two-way links and removing the extra nodes. This avoids the issue with two automatically-generated traffic signals extremely close together.  
   * Fixing erroneous shape information
 
