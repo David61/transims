@@ -2,7 +2,7 @@
 
 For an overview of all available documentation, please refer to the <BR> *[http://transims.googlecode.com/svn/v4/trunk/documentation/Version%204.0.06%20Documentation%20Guide.pdf  TRANSIMS Version 4.0.06 Documentation Guide]*
 
-*Change Logs:* [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Transims%204%200%207%20to%204%200%208.pdf Current (Version 4.0.7 to 4.0.8)] | [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Changelog_Archive.zip Archive (.zip)]
+*Most Recent Change Logs:* [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Transims%204%200%206%20to%204%200%207.pdf Version 4.0.6 to 4.0.7] | [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Transims%204%200%207%20to%204%200%208.pdf Version 4.0.7 to 4.0.8] | [http://transims.googlecode.com/svn/v4/trunk/documentation/changelogs/Changelog_Archive.zip Change Log Archive (.zip)]
 
 ||| *Program*		    	|| *Quick Reference*    																											|| *User Manual* 	||
 || !ActGen                  ||	[http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/ActGen%20QR.pdf 			ActGen QR.pdf]			|| [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/ActGen%20v4.0.pdf 					ActGen v4.0.pdf]						||
