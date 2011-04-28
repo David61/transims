@@ -1,11 +1,10 @@
-#A collection of scripts for use with TRANSIMS programs or data
+# A collection of scripts for use with TRANSIMS programs or data
 
 = Network/Geography =
-  * ...
+  * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt Example Network Correction Script]
 
 = Demand =
-  * ASU script for reassigning AL's
+  * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt ASU Script for Reassigning AL's]
 
-= Results
-
-= Details =
+= Results =
+ * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt John's Graph Script #1, e.g.]
