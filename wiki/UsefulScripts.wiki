@@ -1,6 +1,9 @@
 #summary A collection of scripts for use with TRANSIMS programs or data
 
-*Note: This page is under construction, and is online for test purposes only at this time*
+*_Note: This page is under construction, and is online for test purposes only at this time_*
+
+|| *Script* || *Description* ||
+|| reassign_zone.py ||
 
 == Network/Geography ==
   * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt Example Network Correction Script]
