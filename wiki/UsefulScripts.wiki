@@ -8,5 +8,5 @@ The scripts below have been contributed by the TRANSIMS community to facilitate 
 *_DISCLAIMER:* These scripts come with no warranty or support, and are run at the sole risk of the user.  The authors assume no liability for any damages related to the use of these scripts._
 
 || *Script* || *Description* || *Author* ||
-|| [http://transims.googlecode.com/svn/reassign_zone.py reassign_zone.py] || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
-|| [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt scriptExample.txt] || Example Script || Clarence Example III ||
+|| *[http://transims.googlecode.com/svn/reassign_zone.py reassign_zone.py]* || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
+|| *[http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt scriptExample.txt]* || Example Script || Clarence Example III ||
