@@ -3,13 +3,5 @@
 *_Note: This page is under construction, and is online for test purposes only at this time_*
 
 || *Script* || *Description* || *Author* ||
-|| reassign_zone.py || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
-
-== Network/Geography ==
-  * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt Example Network Correction Script]
-
-== Demand ==
-  * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt ASU Script for Reassigning AL's]
-
-== Results ==
- * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt John's Graph Script #1, e.g.]
+|| [http://transims.googlecode.com/svn/reassign_zone.py reassign_zone.py] || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
+|| [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt scriptExample.txt] || Example Script || Clarence Example III ||
