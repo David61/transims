@@ -2,8 +2,8 @@
 
 *_Note: This page is under construction, and is online for test purposes only at this time_*
 
-|| *Script* || *Description* || Author ||
-|| reassign_zone.py || 
+|| *Script* || *Description* || *Author* ||
+|| reassign_zone.py || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
 
 == Network/Geography ==
   * [http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt Example Network Correction Script]
