@@ -1,7 +1,5 @@
 #summary A collection of scripts for use with TRANSIMS programs or data
 
-*_Note: This page is under construction, and is online for test purposes only at this time_*
-
 =Useful Scripts=
 The scripts below have been contributed by the TRANSIMS community to facilitate or automate parts of the modeling process.  
 
@@ -9,4 +7,3 @@ The scripts below have been contributed by the TRANSIMS community to facilitate 
 
 || *Script* || *Description* || *Author* ||
 || *[http://transims.googlecode.com/svn/reassign_zone.py reassign_zone.py]* || Assigns activity locations to zones with none || ASU SimTRAVEL Team ||
-|| *[http://transims.googlecode.com/svn/v4/trunk/testcases/scriptExample.txt scriptExample.txt]* || Example Script || Clarence Example III ||
