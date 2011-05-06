@@ -11,9 +11,11 @@ Network preparation typically involves taking a network from an existing model, 
 
 Click [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/TinyNetwork.pdf here] to see a very simple network used to illustrate the concepts herein.  
 
-1. Starting data typically includes a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_NodeOriginal.txt nodes] (with UTM coordinates) and a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_LinkOriginal.txt links] (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Shape.txt shape] file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
+===1. Initial Network Inputs=== 
+Starting data typically includes a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_NodeOriginal.txt nodes] (with UTM coordinates) and a list of [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_LinkOriginal.txt links] (with origin / destination node, length, number of lanes in each direction, speed, capacity and other information).  Optional information includes a TRANSIMS [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Shape.txt shape] file and turning restrictions.  If the initial data consists of ESRI shape files, [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/GISNet%20QR.pdf GISNet] may be used to create TRANSIMS files. 
 
-2. Before performing the network conversion, it is best to correct any errors in the input network.  Steps to consider include
+===2. Network Input Corrections and Adjustments===
+Before performing the network conversion, it is best to correct any errors in the input network.  Steps to consider include
   * Removing links and nodes that are not needed for the model.  These may include internal centroid connectors.  
   * Adding any new links or nodes that might be needed
   * Correcting the number of lanes and speeds on links
@@ -23,18 +25,23 @@ Click [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputne
 
 In our example network, the two one-way links of Main street were combined, with nodes 16 and 26 being combined, to yield the following [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Node.txt nodes] and [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/inputnetwork/Input_Link.txt links].
 
-3. [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/TransimsNet%20v4.0.pdf TransimsNet (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/TransimsNet%20QR.pdf  (Quick Reference - QR)] is then used to perform the initial network conversion.  Required inputs include Input_Node and Input_Link files.  Optional inputs include Zone, Turn Prohibition and Shape files. [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Network%20Data%20Tables%20v4.0.pdf Network Data Tables] contains a list of all of the network tables, along with their fields. Like other TRANSIMS programs, TransimsNet uses a [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/control/TransimsNet.ctl control file]. 
+===3. Generate TRANSIMS Network==
+[http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/TransimsNet%20v4.0.pdf TransimsNet (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/TransimsNet%20QR.pdf  (Quick Reference - QR)] is then used to perform the initial network conversion.  Required inputs include Input_Node and Input_Link files.  Optional inputs include Zone, Turn Prohibition and Shape files. [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Network%20Data%20Tables%20v4.0.pdf Network Data Tables] contains a list of all of the network tables, along with their fields. Like other TRANSIMS programs, TransimsNet uses a [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/control/TransimsNet.ctl control file]. 
 
-4. At this stage a number of other corrections are typically performed:
+===4. Lane Connectivity and Signal Warrant Corrections===
+At this stage a number of other corrections are typically performed:
   *  Fixing any issues in the lane_connectivity file (particularly with multiple turn lanes)
   *  Modifying the sign and signal warrants as appropriate. 
 
-5. [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/IntControl%20v4.0.pdf   IntControl (Full)]   [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/IntControl%20QR.pdf (QR)] [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/control/IntControl.ctl (Sample Control File)]  
+===5. Intersection Control Generation===
+[http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/IntControl%20v4.0.pdf   IntControl (Full)]   [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/IntControl%20QR.pdf (QR)] [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/control/IntControl.ctl (Sample Control File)]  
 is then used to generate the files for the signalized intersections.  Inputs include the Node, Link, Lane_Connectivity, Pocket_Lane, Actvity_Location, Sign_Warrant, and Signal_Warrant files that were generated by TransimsNet. [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Network%20Data%20Tables%20v4.0.pdf Network Data Tables] contains a list of all of the network tables, along with their fields. 
 
-6.  If you will be using a subarea network for the microsimulation,  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaNet%20QR.pdf SubAreaNet (QR)] is used to generate the sub-area network.  Required input includes a polygon shape file that defines the subarea. 
+===6. Subarea Definition===
+If you will be using a subarea network for the microsimulation,  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaNet%20QR.pdf SubAreaNet (QR)][http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/SubareaNet%20v4.pdf SubAreaNet (Full)]  is used to generate the sub-area network.  Required input includes a polygon shape file that defines the subarea. 
 
-7.  Finally, [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/ArcNet%20v4.0.pdf ArcNet (Full)] [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/ArcNet%20QR.pdf (QR)] to generate shape files from the newly created TRANSIMS network.  These shape files are then loaded into a GIS, and the newly created network is examined for errors. 
+===7. GIS Conversion and Inspection===
+Finally, [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/ArcNet%20v4.0.pdf ArcNet (Full)] [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/ArcNet%20QR.pdf (QR)] to generate shape files from the newly created TRANSIMS network.  These shape files are then loaded into a GIS, and the newly created network is examined for errors. 
 
 Other references that may be useful for highway network preparation include
 [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Progression%20QR.pdf Progression QR], [http://transims.googlecode.com/svn/v4/trunk/documentation/howto/Step-0_Installation%20and%20Testing%20How-To.pdf Installation and Testing How-To], [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Installation%20and%20Testing.pdf Installation and Testing User Manual], [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Network%20Data%20Tables%20v4.0.pdf Network Data Tables], [http://transims.googlecode.com/svn/v4/trunk/documentation/howto/Step-1_Highway%20Network%20How-To.pdf Highway Network How-To (New)], [http://transims.googlecode.com/svn/v4/trunk/documentation/howto/Step-3_Network%20Edit%20How-To.pdf Network Edit How-To]
@@ -53,16 +60,18 @@ Network editing is part of the two previously-described processes.
 
 A trip-table based TRANSIMS implementation uses trip table, trip time and activity location files.  The trip table files list the trips by origin zone and destination zone.  The trip time files define how those trips are distributed by time-of-day.  The activity location file associates each zone with one or more activity locations. Steps for preparing TRANSIMS trips from trip tables include the following.  
 
-1. Modify the input trip tables that came from the four-step model. Two modifications that are typically performed include converting the numbers of trips to integers, and (possibly) the removal of intrazonal trips. 
+===1. Modify input trip tables from the four-step model===
+Modify the input trip tables that came from the four-step model. Two modifications that are typically performed include converting the numbers of trips to integers, and (possibly) the removal of intrazonal trips. 
 
-2. Run a script to create TRANSIMS-format trip tables and trip times suitable for input into the TRANSIMS ConvertTrips program
+Run a script to create TRANSIMS-format trip tables and trip times suitable for input into the TRANSIMS ConvertTrips program
 
-3. Make any needed modifications to the activity locations. This typically includes the following:
-  * If a shape file of zones is available, use [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LocationData%20QR.pdf LocationData] to assign the activity locations to the proper zones
-  * Identify those zones that are still not covered by any activity location, and reassign some activity locations to those zones.
-  * For external zones and their associated activity locations on one-way (freeway) links, make sure that the inbound link is associated with an origin activity location, and the outbound link with a destination activity location. This is typically done by adding two fields to the Activity_Location table, ORIGCoef and DESTCoef, whose values are initially set to 1.  If we want to turn an activity location off, either as an origin or destination, the corresponding coefficient field is set to 0. For small networks, this process can be done using a [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/network/Activity_Location.xls spreadsheet].  The first sheet in this workbook contains the activity locations produced by TransimsNet.  The second contains the locations with ORIGCoef and DESTCoef fields added. Note that locations 11 and 12 were also set to 0, since they were on a freeway overpass.  
+===2. Make any needed modifications to the activity locations===
+Make any needed modifications to the activity locations. This typically includes the following:
+  * If a shape file of zones is available, use [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LocationData%20QR.pdf LocationData QR][http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/LocationDatav4.pdf LocationData Full]                 to assign the activity locations to the proper zones
+  * Identify those zones that are still not covered by any activity location, and reassign some activity locations to those zones.  ASU has developed a script for this purpose: [http://transims.googlecode.com/svn/reassign_zone.py reassign_zone.py]
+  * For external zones and their associated activity locations on one-way (freeway) links, make sure that the inbound link is associated with an origin activity location, and the outbound link with a destination activity location. This is typically done by adding two fields to the Activity_Location table, ORIGCoef and DESTCoef, whose values are initially set to 1.  If we want to turn an activity location off, either as an origin or destination, the corresponding coefficient field is set to 0. For small networks, this process can be done using a [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/network/Activity_Location.xls spreadsheet].  The first sheet in this workbook contains the activity locations produced by TransimsNet.  The second contains the locations with ORIGCoef and DESTCoef fields added. Note that locations 11 and 12 were also set to 0, since they were on a freeway overpass.  The [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/LocationDatav4.pdf  LocationData Full] user manual also contains an example of a control file and script that performs this adjustment. 
 
-4. Run the TRANSIMS 
+===3. Run !ConvertTrips===
 [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/ConvertTrips%20v4.0.pdf  Convert Trips (Full)] [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/ConvertTrips%20QR.pdf (QR)] [http://transims.googlecode.com/svn/v4/trunk/testcases/tinyexample/control/ConvertTrips.ctl (Sample Control File)]  program to convert the trip tables and trip time data into Trip, Household, Population and Vehicle files. These files contain the individual trips that are used as input to the TRANSIMS Router. 
 
 Other references that may be useful for trip table conversion include
