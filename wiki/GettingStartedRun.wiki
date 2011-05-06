@@ -26,11 +26,11 @@ In this phase, the router is run repeatedly to produce a "reasonable" V/C ratios
 1. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Router%20v4.0.pdf Router (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Router%20QR.pdf (QR)]
 Inputs to the Router include the network and a set of trips.  After the first iteration, inputs also include the list of households to be rerouted and congested travel times. The outputs include problem trips (those trips that could not be routed) and plans (the node-by-node or link-by-link travel plans) of each trip.  Note that for networks containing a large number of trips, the Router run may be partitioned.  
 
-2. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  Note that for networks containing a large number of trips, the PlanPrep run may be partitioned.
+2. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanPrepV4.pdf PlanPrep (Full)]              [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  Note that for networks containing a large number of trips, the PlanPrep run may be partitioned.
 
 3. Optionally, run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanTrips%20QR.pdf  PlanTrips (QR)], to adjust the start times of destination-constrained trips.
 
-4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays based on the current set of plans. Since the link delays depend on ALL of the plans, this program cannot be partitioned.  
+4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanSum%20v4.pdf PlanSum (Full)]               [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf (QR)] to generate new link delays based on the current set of plans. Since the link delays depend on ALL of the plans, this program cannot be partitioned.  
 
 5. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSelect%20QR.pdf PlanSelect (QR)] to choose those plans to be rerouted in the next iteration. Typically, the plans traversing links with the highest V/C ratios are chosen.  One may also choose plans where the travel time has changed significantly. 
 
@@ -45,17 +45,17 @@ The microsimulator attempts to execute the travel plans that were developed by t
 1. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Router%20v4.0.pdf Router (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Router%20QR.pdf (QR)]
 Inputs to the Router include the network, a set of trips, the list of households (from th e previous iteration) to be rerouted and congested travel times. The outputs include problem trips (those trips that could not be routed) and plans (the node-by-node or link-by-link travel plans) of each trip that was rerouted.    
 
-2. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  
+2. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanPrepV4.pdf PlanPrep (Full)]              [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  
 
-3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaPlans%20QR.pdf SubareaPlans (QR)] to extract the plans that include links or nodes in the subarea.  
+3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/SubareaPlans%20v4.pdf SubareaPlans (Full)] [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaPlans%20QR.pdf (QR)] to extract the plans that include links or nodes in the subarea.  
 
-4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to sort the plans by departure time (needed for the microsimulator) 
+4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanPrepV4.pdf PlanPrep (Full)]              [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf (QR)] to sort the plans by departure time (needed for the microsimulator). 
 
 5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files%20v4.0.pdf outputs], including link delays for those links in the subarea. 
 
-6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays (for those links NOT in the subarea). 
+6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanSum%20v4.pdf PlanSum (Full)]               [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf (QR)] to generate new link delays (for those links NOT in the subarea). 
 
-7. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LinkDelay%20QR.pdf LinkDelay (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
+7. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/LinkDelay%20v4.0.pdf LinkDelay (Full)]                [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LinkDelay%20QR.pdf (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
 
 8. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/ProblemSelect%20QR.pdf ProblemSelect (QR)] to choose those plans to be rerouted in the next iteration. Typically, some of the problem plans (those that could not be executed by the microsimulator) are chosen.   
 
@@ -74,16 +74,16 @@ Inputs to the Router include the network, a set of trips, and congested travel t
 
 2. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanCompare%20QR.pdf PlanCompare (QR)] to compare the travel times and paths of the plans from this run with those from the previous run. 
 
-3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  
+3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanPrepV4.pdf PlanPrep (Full)]              [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf (QR)] to merge the plans from the most recent router run with the full set of plans from the previous run.  
 
-3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaPlans%20QR.pdf SubareaPlans (QR)] to extract the plans that include links or nodes in the subarea.  
+3. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/SubareaPlans%20v4.pdf SubareaPlans (Full)] [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/SubareaPlans%20QR.pdf (QR)] to extract the plans that include links or nodes in the subarea.  
 
-4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf  PlanPrep (QR)] to sort the plans by departure time (needed for the microsimulator) 
+4. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanPrepV4.pdf PlanPrep (Full)]              [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanPrep%20QR.pdf (QR)] to sort the plans by departure time (needed for the microsimulator) 
 
 5. Run the [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20v4.0.pdf Microsimulator (Full)]  [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/Microsimulator%20QR.pdf (QR)] to attempt to execute the subarea plans.  The microsimulator produces a wealth of [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/Microsimulator%20Output%20Files%20v4.0.pdf outputs], including link delays for those links in the subarea. 
 
-6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf  PlanSum (QR)] to generate new link delays (for those links NOT in the subarea). 
+6. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/PlanSum%20v4.pdf PlanSum (Full)]               [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/PlanSum%20QR.pdf (QR)] to generate new link delays (for those links NOT in the subarea). 
 
-7. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LinkDelay%20QR.pdf LinkDelay (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
+7. Run [http://transims.googlecode.com/svn/v4/trunk/documentation/usermanuals/LinkDelay%20v4.0.pdf LinkDelay (Full)]                [http://transims.googlecode.com/svn/v4/trunk/documentation/quickreference/LinkDelay%20QR.pdf (QR)] to merge the link delays produced by the Microsimulator and by PlanSum. 
 
 [http://code.google.com/p/transims/wiki/GettingStarted Back to Getting Started]
