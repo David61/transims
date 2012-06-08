@@ -1,7 +1,8 @@
 #summary TRANSIMS Version 5 Documentation
 
 = TRANSIMS Version 5 =
-May 2012
+
+Version 5 of TRANSIMS is still under development.  It is recommended that you review the training materials first. 
 
 *[V5Training Training Materials]* - Explanatory materials with a hands-on example
 
@@ -15,16 +16,12 @@ the following.  In these cases, the use of a control file is optional.
 || !TransimsNet -X ||  Write an XML file with control keys ||
 || !TransimsNet -R ||  Write control keys and report names ||
 
-The Execution Service describes the syntax for running TRANSIMS programs.  The program references describe each program.  
-The file and parameter references describe the files and parameters used by the programs.
+The *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ExecutionService_V5.0.pdf Execution Service]*, written by AECOM, describes the syntax for running TRANSIMS programs.  
 
-*[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ExecutionService_V5.0.pdf Execution Service]*
+The *[V5ProgramReferences Program References]* describe each program.  
+The *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/FileReference_V5.0_R0.2.pdf file]* and *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ParameterReference_V5.0_R0.2.pdf parameter]* references describe the files and parameters used by the programs.
 
-*[V5ProgramReferences Program References]*
-
-*[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/FileReference_V5.0_R0.2.pdf File Reference (v0.2)]*
-
-*[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ParameterReference_V5.0_R0.2.pdf Parameter Reference (v0.2)]*
+This is all a work in progress. The last update occurred on 8 June 2012. 
 
 
 [http://code.google.com/p/transims/ Back to Front Page]
