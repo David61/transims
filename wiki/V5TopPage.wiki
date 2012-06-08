@@ -2,7 +2,7 @@
 
 = TRANSIMS Version 5 =
 
-Version 5 of TRANSIMS is still under development.  It is recommended that you review the training materials first. 
+Version 5 of TRANSIMS is still under development.  It is recommended that you review the training materials and Execution Service first. 
 
 *[V5Training Training Materials]* - Explanatory materials with a hands-on example
 
