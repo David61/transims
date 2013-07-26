@@ -3,11 +3,11 @@
 July 2013
 
 ||| *Description*   || *Link*    	||
-|| !ArcNet - Create shapefiles to visualize the network ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/ArcNet_V5.0_R1.0.pdf 	coming soon ||
-|| !ArcPlan - Create shapefiles to visualize travel plans ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/ArcPlan_V5.0_R1.0.pdf 	coming soon ||
+|| !ArcNet - Create shapefiles to visualize the network ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/ArcNet_V5.0_R1.0.pdf	coming soon] ||
+|| !ArcPlan - Create shapefiles to visualize travel plans ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/ArcPlan_V5.0_R1.0.pdf 	coming soon] ||
 || !ConvertTrips - Create Transims trips from trip and tour tables   ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/ConvertTrips_V5.0_R1.0.pdf	ConvertTrips_V5.0_R1.0.pdf] ||
 || !IntControl - Create Transims intersection controls   ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/IntControl_V5.0_R1.0.pdf	IntControl_V5.0_R1.0.pdf] ||   
-|| !LinkDelay - Merge link delay files     ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/LinkDelay_V5.0_R1.0.pdf 	coming soon] ||  
+|| !LinkDelay - Merge link delay files     ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/LinkDelay_V5.0_R1.0.pdf	coming soon] ||  
 || !LinkSum - Summarize link delay files     ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/LinkSum_V5.0_R1.0.pdf 	coming soon] ||  
 || !LocationData - Update fields in location file     ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/LocationData_V5.0_R1.0.pdf 	coming soon] ||  
 || !NetPrep - Network preparation utility         ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/NetPrep_V5.0_R1.0.pdf 	NetPrep_v5.0_R1.0.pdf] ||   
@@ -15,7 +15,7 @@ July 2013
 || !PathSkim - Summarize zone-to-zone travel times  ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/PathSkim_V5.0_R1.0.pdf 	PathSkim_V5.0_R1.0.pdf] || 
 || !PlanCompare - Compare plan file and generate convergence statistics     ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/PlanCompare_V5.0_R1.0.pdf 	coming soon] ||
 || !PlanSelect - Select plans using various criteria      ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/PlanSelect_V5.0_R1.0.pdf 	PlanSelect_V5.0_R1.0.pdf] || 
-|| !RandomSelect - Divide trips into multiple partitions  ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/RandomSelect_V5.0_R1.0.pdf 	coming soon || 	
+|| !RandomSelect - Divide trips into multiple partitions  ||   [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/RandomSelect_V5.0_R1.0.pdf 	coming soon] || 	
 || Router - Route trips over the network to create plans      ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/Router_V5.0_R1.0.pdf 	Router_V5.0_R1.0.pdf] || 
 || !TransimsNet - Create Transims network from input Node, Link and Zone files ||  [http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ModuleReferences/TransimsNet_V5.0_R1.0.pdf 	TransimsNet_V5.0_R1.0.pdf] || 
 	
