@@ -21,7 +21,8 @@ The *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/Exec
 The *[V5ProgramReferences Program References]* describe each program.  
 The *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/FileReference_V5.0_R0.8.pdf file]* and *[http://transims.googlecode.com/svn/v5/trunk/documentation/usermanuals/ParameterReference_V5.0_R0.8.pdf parameter]* references describe the files and parameters used by the programs.
 
-The *[http://transims.googlecode.com/svn/v5/trunk/documentation/howto/Highway_Network_How-To_V5.0_R1.0.pdf Highway Network How-To]* describes how to build a TRANSIMS highway network
+The *[http://transims.googlecode.com/svn/v5/trunk/documentation/howto/Highway_Network_How-To_V5.0_R1.0.pdf Highway Network How-To]* describes how to build a TRANSIMS highway network.
+
 The *[http://transims.googlecode.com/svn/v5/trunk/documentation/howto/User_Equilibrium_How_To_V5.0_R1.0.pdf User Equilibrium How-To]* describes user equilibrium
 
 This is all a work in progress. The last update occurred on 9 September 2013. 
